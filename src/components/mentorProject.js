@@ -1,11 +1,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Mentor from '../assets/thumbnails/mentor.png';
-import Kathas from '../assets/thumbnails/Kathas.png';
-import MetalnClay from '../assets/thumbnails/MetalnClay.png';
-import Trident from '../assets/thumbnails/Trident.png';
-import Wedding from '../assets/thumbnails/wedding.png';
 import BottomPagination from './bottomPagination';
 
 export default function MentorProject() {

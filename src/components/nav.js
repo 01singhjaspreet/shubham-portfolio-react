@@ -34,7 +34,10 @@ export default function Nav() {
                         Work
                         <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <a className='pt-1 pb-3' href={Resume} target="_blank" rel="noreferrer">Resume</a>
+                    <a class="pb-2 mr-6 pt-1 transition-all group" href={Resume} target="_blank" rel="noreferrer">
+                        Resume
+                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                    </a>
                 </div>
             </div>
             <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
