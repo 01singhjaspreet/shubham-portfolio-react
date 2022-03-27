@@ -1,6 +1,5 @@
 
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import BottomPagination from './bottomPagination';
 
 export default function MentorProject() {
@@ -106,8 +105,8 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/25.png" className="w-full rounded" alt="" />
-                    <img src="./assets/mentor/26.png" className="w-full mt-4 rounded" alt="" />
+                    <img src={require("../assets/mentor/25.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/26.png")} className="w-full mt-4 rounded" alt="" />
                 </div>
             </div>
 
@@ -116,36 +115,36 @@ export default function MentorProject() {
             </h4>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/1.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/1.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Rohan wants a mentor for his UX projects.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/2.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/2.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Rohan remember's an app that can help.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/3.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/3.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Rohan uses our app to connect with mentors.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/4.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/4.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">In this app Rohan can select a project and can take
                         help from others.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/5.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/5.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Rohan will submit the design and it will be reviewed by
                         other designers.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/mentor/storyBoard/6.png" className="rounded" alt="" />
+                    <img src={require("../assets/mentor/storyBoard/6.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Rohan is happy with mentorship from  industy experts</h4>
                 </div>
             </div>
 
 
             <h2 className="w-full mt-12 text-xl font-bold">Affinity Diagram</h2>
-            <img src="./assets/mentor/storyBoard/Mentor--affinity-diagram.jpg" alt="" />
+            <img src={require("../assets/mentor/storyBoard/Mentor--affinity-diagram.jpg")} alt="" />
 
 
             <div className="grid grid-cols-12 gap-2.5 mt-12">
@@ -223,7 +222,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/3.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/3.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User Persona: Raj Singh</h2>
@@ -237,7 +236,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/4.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/4.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User journey map: Gunjan Saxena</h2>
@@ -249,7 +248,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/5.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/5.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User journey map: Raj Singh</h2>
@@ -261,7 +260,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/6.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/6.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Sitemap</h2>
@@ -275,7 +274,7 @@ export default function MentorProject() {
                         website navigation. The structure I chose was designed to make things simple and easy. </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/7.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/7.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Logo Discription</h2>
@@ -299,11 +298,11 @@ export default function MentorProject() {
                     <p className=""><span className="font-medium">Type:</span> Clip art logo design</p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/8.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/8.png")} className="w-full rounded" alt="" />
                 </div>
                 <div className="grid w-full grid-cols-12 col-span-12 gap-4 mt-4">
-                    <img src="./assets/mentor/9.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                    <img src="./assets/mentor/10.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/mentor/9.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/mentor/10.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
                 </div>
             </div>
 
@@ -317,7 +316,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/11.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/11.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Paper wireframe
@@ -331,7 +330,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/12.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/12.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -348,7 +347,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/13.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/13.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -356,8 +355,8 @@ export default function MentorProject() {
                 screen size variation(s)
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/14.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/15.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/14.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/15.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Low-fidelity prototype
@@ -374,7 +373,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/16.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/16.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -457,8 +456,8 @@ export default function MentorProject() {
 
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/17.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/18.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/17.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/18.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups Mobile App</h2>
@@ -469,26 +468,26 @@ export default function MentorProject() {
                 The second usability study revealed frustration with the notification sound. to streamline this flow, I added the notification mute and notification delete option on rights screen of notification details.
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/19.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/20.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/19.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/20.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/21.png"
+                <img src={require("../assets/mentor/21.png")}
                     className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/22.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/22.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/1.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/24.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/1.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/24.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/mentor/2.png" className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/mentor/26.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/2.png")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/26.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
 
@@ -502,7 +501,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/27.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/27.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
@@ -516,7 +515,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/mentor/28.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/28.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 

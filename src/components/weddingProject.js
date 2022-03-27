@@ -1,7 +1,6 @@
 
 import React from 'react';
 import BottomPagination from './bottomPagination';
-
 export default function WeddingProject() {
 
     return (
@@ -109,8 +108,8 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/1.jpg" className="w-full rounded" alt="" />
-                    <img src="./assets/wedding/2.jpg" className="w-full mt-4 rounded" alt="" />
+                    <img src={require('../assets/wedding/1.jpg')} className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/25.jpg")} className="w-full mt-4 rounded" alt="" />
                 </div>
             </div>
 
@@ -119,30 +118,30 @@ export default function WeddingProject() {
                 mentorship from industry experts</h4>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/1.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/1.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Roma wants to get a mentor for his UX projects.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/2.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/2.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Roma remember an app that can help.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/3.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/3.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Roma uses our app to connect with mentors.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/4.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/4.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">In the app Roma can pick a project and take help of
                         others.</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/5.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/5.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Roma can take project and submit the design and
                         review by
                         other designer</h4>
                 </div>
                 <div className="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
-                    <img src="./assets/wedding/storyBoard/6.png" className="rounded" alt="" />
+                    <img src={require("../assets/wedding/storyBoard/6.png")} className="rounded" alt="" />
                     <h4 className="w-full mt-1 text-lg font-medium text-center">Roma is happy with mentorship of industy experts</h4>
                 </div>
             </div>
@@ -234,7 +233,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/3.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/3.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User Persona: Roma</h2>
@@ -247,7 +246,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/4.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/4.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User journey map: Deepak Patel</h2>
@@ -259,7 +258,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/5.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/5.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">User journey map: Roma</h2>
@@ -271,7 +270,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/6.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/6.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Sitemap</h2>
@@ -286,7 +285,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/7.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/7.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Logo Discription</h2>
@@ -310,11 +309,11 @@ export default function WeddingProject() {
                     <p className=""><span className="font-medium">Type:</span> Clip art logo design</p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/8.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/8.jpg")} className="w-full rounded" alt="" />
                 </div>
                 <div className="grid w-full grid-cols-12 col-span-12 gap-4 mt-4">
-                    <img src="./assets/wedding/9.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                    <img src="./assets/wedding/10.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/wedding/9.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/wedding/10.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
                 </div>
             </div>
 
@@ -334,7 +333,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/11.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/11.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Paper wireframe
@@ -348,7 +347,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/12.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/12.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -366,7 +365,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/13.png" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/13.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -374,8 +373,8 @@ export default function WeddingProject() {
                 screen size variation(s)
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/14.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/15.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/14.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/15.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Low-fidelity prototype
@@ -392,14 +391,14 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/16.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/16.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Usability study: parameters
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.400024 20C0.400024 8.91089 9.49998 0 20.6 0C31.7 0 40.8 9.0099 40.8 20C40.8 30.9901 31.7 40 20.6 40C9.49998 40 0.400024 31.0891 0.400024 20Z"
@@ -413,7 +412,7 @@ export default function WeddingProject() {
                     <p className="w-full mt-4 text-center ">Unmoderated usability study
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.699951 20C0.699951 9.0099 9.79994 0 20.9999 0C32.1999 0 41.2 9.0099 41.2 20C41.2 30.9901 32.0999 40 20.9999 40C9.89994 40 0.699951 31.0891 0.699951 20Z"
@@ -430,7 +429,7 @@ export default function WeddingProject() {
                     <p className="w-full mt-4 text-center ">Hyderabad, India, remote
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.0999756 20C0.0999756 8.91089 9.19999 0 20.3 0C31.5 0 40.5 9.0099 40.5 20C40.5 30.9901 31.4 40 20.3 40C9.09999 40 0.0999756 31.0891 0.0999756 20Z"
@@ -445,7 +444,7 @@ export default function WeddingProject() {
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.400024 20C0.400024 8.91089 9.49998 0 20.6 0C31.8 0 40.8 9.0099 40.8 20C40.8 30.9901 31.7 40 20.6 40C9.49998 40 0.400024 31.0891 0.400024 20Z"
@@ -476,8 +475,8 @@ export default function WeddingProject() {
                 for billing and Bookings.
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/17.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/18.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/17.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/18.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups Mobile App</h2>
@@ -490,26 +489,26 @@ export default function WeddingProject() {
                 the “Booking confirmation” to one “Payment option” screen.
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/19.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/20.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/19.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/20.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/21.jpg"
+                <img src={require("../assets/wedding/21.jpg")}
                     className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/22.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/22.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/23.png" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/24.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/23.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/24.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src="./assets/wedding/25.jpg" className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src="./assets/wedding/26.jpg" className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/25.jpg")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/26.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
 
@@ -523,7 +522,7 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/27.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/27.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
@@ -536,13 +535,13 @@ export default function WeddingProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src="./assets/wedding/28.jpg" className="w-full rounded" alt="" />
+                    <img src={require("../assets/wedding/28.jpg")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Accessibility considerations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
-                <div className="flex flex-col items-center col-span-12 px-6 py-10 bg-gray-200 rounded lg:px-10 md:col-span-4">
+                <div className="flex flex-col items-center col-span-12 px-6 py-10 rounded shadow-lg lg:px-10 md:col-span-4">
                     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="26" cy="26" r="26" className="fill-gray-800" />
                         <path d="M27.543 16.8438V34H25.375V19.5508L21.0039 21.1445V19.1875L27.2031 16.8438H27.543Z" fill="white" />
@@ -550,7 +549,7 @@ export default function WeddingProject() {
                     <p className="w-full mt-4 text-center md:text-justify">I used headings with different sized
                         text for clear visual hierarchy. </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-6 py-10 bg-gray-200 rounded lg:px-10 md:col-span-4">
+                <div className="flex flex-col items-center col-span-12 px-6 py-10 rounded shadow-lg lg:px-10 md:col-span-4">
                     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="26" cy="26" r="26" className="fill-gray-800" />
                         <path
@@ -562,7 +561,7 @@ export default function WeddingProject() {
                         the site, including users who rely on
                         assistive technologies. </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-6 py-10 bg-gray-200 rounded lg:px-10 md:col-span-4">
+                <div className="flex flex-col items-center col-span-12 px-6 py-10 rounded shadow-lg lg:px-10 md:col-span-4">
                     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="26" cy="26" r="26" className="fill-gray-800" />
                         <path
@@ -579,7 +578,7 @@ export default function WeddingProject() {
 
             <h2 className="w-full mt-12 text-xl font-bold">Takeaways</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.800049 20C0.800049 9.0099 9.9 0 21 0C32.2 0 41.2 8.91089 41.2 20C41.2 31.0891 32.1 40 21 40C9.8 40 0.800049 31.0891 0.800049 20Z"
@@ -596,7 +595,7 @@ export default function WeddingProject() {
                         engaging with the images, and
                         demonstrated a clear visual hierarchy. </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.0999756 20C0.0999756 9.0099 9.20005 0 20.3 0C31.5 0 40.5 8.91089 40.5 20C40.5 31.0891 31.4 40 20.3 40C9.20005 40 0.0999756 31.0891 0.0999756 20Z"
@@ -623,7 +622,7 @@ export default function WeddingProject() {
                         always focus on the real needs of the user
                         when coming up with design ideas and solutions. </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.5 20C0.5 8.91089 9.59995 0 20.7 0C31.9 0 40.9 9.0099 40.9 20C40.9 30.9901 31.8 40 20.7 40C9.49995 40 0.5 31.0891 0.5 20Z"
@@ -639,7 +638,7 @@ export default function WeddingProject() {
                         really thinks about how to meet their needs.
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M0.0999756 20C0.0999756 9.0099 9.20005 0 20.3 0C31.5 0 40.5 8.91089 40.5 20C40.5 31.0891 31.4 40 20.3 40C9.20005 40 0.0999756 31.0891 0.0999756 20Z"
@@ -671,7 +670,7 @@ export default function WeddingProject() {
 
             <h2 className="w-full mt-12 text-xl font-bold">Next Steps</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-6">
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="16" cy="16" r="16" fill="#5F6368" />
                         <path d="M17.6953 10.5625V22H16.25V12.3672L13.3359 13.4297V12.125L17.4688 10.5625H17.6953Z" fill="white" />
@@ -681,7 +680,7 @@ export default function WeddingProject() {
                         to validate whether the pain points users
                         experienced have been effectively addressed. </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="16" cy="16" r="16" fill="#5F6368" />
                         <path
@@ -692,7 +691,7 @@ export default function WeddingProject() {
                         ideate on new features
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="16" cy="16" r="16" fill="#5F6368" />
                         <path
@@ -703,7 +702,7 @@ export default function WeddingProject() {
                         the responsive website
                     </p>
                 </div>
-                <div className="flex flex-col items-center col-span-12 px-4 py-10 bg-gray-200 rounded md:col-span-6 xl:col-span-3">
+                <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="16" cy="16" r="16" fill="#5F6368" />
                         <path
