@@ -60,7 +60,7 @@ export default function Nav() {
                         Home
                         <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'>
+                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/work'>
                         Work
                         <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
