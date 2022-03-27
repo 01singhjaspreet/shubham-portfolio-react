@@ -1,13 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.color-transition {
+  height: 2px;
+  background: #27c4f5
+    linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
+  background-size: 500%;
+  animation: 2s linear infinite LoadingBarProgress,
+    0.5s ease-out LoadingBarEnter;
+  transform-origin: left;
+  width: 100%;
 }
+
+.circle {
+  stroke-dasharray: 227;
+  stroke-dashoffset: 227;
+  transition: stroke-dashoffset 350ms linear;
+}
+.circle-button:hover .circle{
+  stroke-dashoffset: 0;
+}
+
+@keyframes LoadingBarProgress {
+  0% {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: 125% 0;
+  }
+}
+
+@keyframes LoadingBarEnter {
+  0% {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes jumpingBall {
+  10% {
+    width: 4px;
+    height: 4px;
+  }
+  30% {
+    height: 4px;
+    width: 3px;
+  }
+  50% {
+    height: 3px;
+    width: 5px;
+    transform: translateY(-5px);
+  }
+  75% {
+    height: 4px;
+    width: 5px;
+  }
+  100% {
+    width: 4px;
+    height: 4px;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .hamMenu {
+    display: none;
+  }
+  .hamMenuOpenScreen {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .desktopMenu {
+    display: none;
+  }
+  .hamMenu {
+    display: flex;
+  }
+  .hamMenu__ballIcon {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    background: #27c4f5
+      linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
+    background-size: 500%;
+    animation: 0.6s cubic-bezier(0.45, 1.06, 0.46, 0.15) infinite jumpingBall,
+      2s linear infinite LoadingBarProgress, 0.5s ease-out LoadingBarEnter;
+    transform-origin: left;
+  }
+  .hamMenuOpenScreen {
+    display: none;
+
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100vh;
+    background-color: rgba(241, 245, 249, 0.9);
+    transition: width 0.25s;
+  }
+  .hamMenuOpenScreen__header {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hamMenuOpenScreen__content {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hamMenuOpenScreen__content a {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+
+  .hamMenuOpenScreen__header__ballIcon {
+    position: absolute;
+    top: 14px;
+    margin-right: 6px;
+  }
+}
+
