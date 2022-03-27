@@ -22,7 +22,7 @@ export default function Work() {
                     <h2 class="mt-1">
                         My Wedding Google UI/UX Assignment Project
                     </h2>
-                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
+                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
                     </button>
@@ -37,7 +37,7 @@ export default function Work() {
                     <img src={Mentor} class="object-cover object-center h-56 rounded-md shadow-lg w-96"
                         alt="" />
                     <h2 class="mt-1">Mentor</h2>
-                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
+                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
                     </button>
@@ -52,7 +52,7 @@ export default function Work() {
                     <img src={MetalnClay}
                         class="object-cover object-center h-56 rounded-md shadow-lg w-96" alt="" />
                     <h2 class="mt-1">Metal N Clay</h2>
-                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
+                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
                     </button>
@@ -67,7 +67,7 @@ export default function Work() {
                     <img src={Kathas} class="object-cover object-center h-56 rounded-md shadow-lg w-96"
                         alt="" />
                     <h2 class="mt-1">Kathas Entertainments</h2>
-                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
+                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
                     </button>
@@ -82,7 +82,7 @@ export default function Work() {
                         class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">LOGO
                         DESIGN / BRANDING</span>
                     <h2 class="mt-1">Trident</h2>
-                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
+                    <button class="pb-2 pt-1 text-lg font-semibold transition-all group ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
                     </button>

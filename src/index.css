@@ -132,4 +132,7 @@ body {
     top: 14px;
     margin-right: 6px;
   }
+  .nav-links:hover .div-underline{
+    width: 0;
+  }
 

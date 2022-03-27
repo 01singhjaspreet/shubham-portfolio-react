@@ -25,10 +25,16 @@ export default function Nav() {
                     <h1 className="text-xl font-bold">Shubham Mourya</h1>
                     <h4 className="text-sm">UI/UX Designer</h4>
                 </Link>
-                <div className="text-lg">
-                    <Link className={`mr-6 ${isHome ? ' border-b-violet-600 border-b-2' : ''}`} to="/">Home</Link>
-                    <Link className={`mr-6 ${isWork ? 'border-b-violet-600 border-b-2' : ''}`} to="/work">Work</Link>
-                    <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
+                <div className="flex items-center text-lg nav-links">
+                    <Link class="pb-2 mr-6 pt-1 transition-all group" to='/'>
+                        Home
+                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
+                    </Link>
+                    <Link class="pb-2 mr-6 pt-1 transition-all group" to='/work'>
+                        Work
+                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                    </Link>
+                    <a className='pt-1 pb-3' href={Resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
             <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
@@ -46,9 +52,15 @@ export default function Nav() {
                     <div className="hamMenu__ballIcon2"></div>
                     <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
                 </div>
-                <div className="text-lg hamMenuOpenScreen__content">
-                    <Link className={`mr-6 ${isHome ? 'border-b-violet-600 border-b-2 w-max w-fit' : ''}`} to="/">Home</Link>
-                    <Link className={`mr-6 ${isWork ? 'border-b-violet-600 border-b-2 w-max w-fit' : ''}`} to="/work">Work</Link>
+                <div className="flex flex-col text-lg hamMenuOpenScreen__content">
+                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'>
+                        Home
+                        <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
+                    </Link>
+                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'>
+                        Work
+                        <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                    </Link>
                     <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
