@@ -50,50 +50,35 @@ body {
 
 @keyframes jumpingBall {
   10% {
-    width: 4px;
-    height: 4px;
+    width: 8px;
+    height: 8px;
   }
   30% {
-    height: 4px;
-    width: 3px;
+    height: 8px;
+    width: 6px;
   }
   50% {
-    height: 3px;
-    width: 5px;
-    transform: translateY(-5px);
+    height: 6px;
+    width: 10px;
+    transform: translateY(-10px);
   }
   75% {
-    height: 4px;
-    width: 5px;
+    height: 8px;
+    width: 10px;
   }
   100% {
-    width: 4px;
-    height: 4px;
+    width: 8px;
+    height: 8px;
     transform: translateY(0);
   }
 }
 
-@media only screen and (min-width: 641px) {
-  .hamMenu {
-    display: none;
-  }
-  .hamMenuOpenScreen {
-    display: none;
-  }
-}
-@media only screen and (max-width: 640px) {
-  .desktopMenu {
-    display: none;
-  }
-  .hamMenu {
-    display: flex;
-  }
   .hamMenu__ballIcon {
     width: 4px;
     height: 4px;
     border-radius: 50%;
     position: absolute;
-    top: 24px;
+    top: 15px;
     background: #27c4f5
       linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
     background-size: 500%;
@@ -101,16 +86,28 @@ body {
       2s linear infinite LoadingBarProgress, 0.5s ease-out LoadingBarEnter;
     transform-origin: left;
   }
+  .hamMenu__ballIcon2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    right: 28px;
+    background: #27c4f5
+      linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
+    background-size: 500%;
+    animation: 0.6s cubic-bezier(0.45, 1.06, 0.46, 0.15) infinite jumpingBall,
+    2s linear infinite LoadingBarProgress, 0.5s ease-out LoadingBarEnter;
+    transform-origin: left;
+  }
   .hamMenuOpenScreen {
-    display: none;
-
     position: fixed;
     overflow: hidden;
     top: 0;
     left: 0;
     width: 0px;
     height: 100vh;
-    background-color: rgba(241, 245, 249, 0.9);
+    background-color: rgba(241, 245, 249);
     transition: width 0.25s;
   }
   .hamMenuOpenScreen__header {
@@ -135,5 +132,4 @@ body {
     top: 14px;
     margin-right: 6px;
   }
-}
 
