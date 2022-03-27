@@ -36,7 +36,7 @@ export default function Nav() {
                     </Link>
                     <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer">
                         Resume
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 w-0`}></div>
                     </a>
                 </div>
             </div>
