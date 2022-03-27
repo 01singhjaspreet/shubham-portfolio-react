@@ -12,10 +12,7 @@ export default function BottomPagination() {
       ];
       
       const getCurrProjectIndex = () => {
-        const pathArr = location.pathname;
-        const currProject = pathArr[pathArr.length - 1];
-        const currProjectIndex = projectPathList.indexOf(currProject);
-        return currProjectIndex;
+        return projectPathList.indexOf(location.pathname);
       };
       
       const handlePrevProject = () => {

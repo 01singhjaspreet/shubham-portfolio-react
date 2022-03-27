@@ -6,6 +6,9 @@ import three from "../assets/Metal-logo/Metal-And-clay-3.jpg";
 import four from "../assets/Metal-logo/MetalN-clay-White.jpg";
 import five from "../assets/Metal-logo/Metal-and-clay-box.png";
 export default function MetalProject() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <LogoProjectTemplate
             description={<>  Did you know that the human brain can process images 60,000X faster

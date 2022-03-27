@@ -6,6 +6,9 @@ import three from "../assets/Kathas/Kathas-Entertainments-Icons.jpg";
 import four from "../assets/Kathas/Kathas-t-shirt.png";
 import five from "../assets/Kathas/Web-kathas-ID.png";
 export default function KathasProject() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <LogoProjectTemplate
             description={<>   A custom logo for a tech company is a key element of branding.

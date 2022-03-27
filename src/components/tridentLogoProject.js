@@ -6,6 +6,9 @@ import three from "../assets/Trident/Trident-logo-present.jpg";
 import four from "../assets/Trident/Trident-t-shirt.png";
 import five from "../assets/Trident/Trident-cap.png";
 export default function TridentLogoProject() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <LogoProjectTemplate
             description={<> When creating a visual brand identity and logo, its important to be

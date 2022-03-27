@@ -2,7 +2,9 @@
 import React from 'react';
 import BottomPagination from './bottomPagination';
 export default function WeddingProject() {
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
             <h2 className="w-full text-xl font-bold">Project Overview</h2>
