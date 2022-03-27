@@ -7,6 +7,7 @@ import {
 import Nav from './components/nav';
 import Home from './components/home';
 import Footer from './components/footer';
+import Work from './components/work';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
