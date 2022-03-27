@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex flex-col items-center w-full px-4 py-5 mt-10 text-sm bg-white">
                 <p>
                     Designed with &#x2764; by me. Developed by
-                    <a href="https://jaspreetportfolio.netlify.app/" className="underline">Jaspreet</a>
+                    <a href="https://jaspreetportfolio.netlify.app/" className="underline ml-0.5">Jaspreet</a>
                 </p>
                 <div>Copyright © Shubham Mourya.</div>
                 <div className="mt-6 text-xs">
