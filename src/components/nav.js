@@ -56,11 +56,11 @@ export default function Nav() {
                     <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
                 </div>
                 <div className="flex flex-col text-lg hamMenuOpenScreen__content">
-                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'>
+                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'  onClick={handleCloseHamMenu}>
                         Home
                         <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/work'>
+                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
                         Work
                         <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
