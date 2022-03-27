@@ -22,10 +22,9 @@ export default function MentorProject() {
                         <h2 class="ml-4 text-lg font-medium ">The Product</h2>
                     </div>
                     <p class="ml-12 ">
-                        Virtual My Wedding which can help users in findng wedding venue at
-                        their hometown and city, my app target users who has bussy schedule.
-                        My wedding goal is to make Wedding venue booking fun, fast, and easy
-                        for all types of users.
+                        Mentor website which can help users in finding mentorships on their design projects, and Mentor app targets the users who want to work on real time projects.
+                        <br />
+                        Mentor app and website goal is to provide mentorship with industry experts
                     </p>
                     <div class="flex items-center mt-6">
                         <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
@@ -40,7 +39,7 @@ export default function MentorProject() {
                         <h2 class="ml-4 text-lg font-medium">The duration</h2>
                     </div>
                     <p class="ml-12 ">
-                        Jan 2022 to Feb 2022
+                        Feb 2022 to Mar 2022
                     </p>
                     <div class="flex items-center mt-6">
                         <svg width="32" height="32" viewBox="0 0 42 40" fill="none" >
@@ -55,9 +54,9 @@ export default function MentorProject() {
                         <h2 class="ml-4 text-lg font-medium">The Problem</h2>
                     </div>
                     <p class="ml-12 ">
-                        Available online wedding venue websites have cluttered designs,
-                        inefficient systems for browsing through products, and confusing
-                        checkout processes.
+                        Students who need guidance and mentorship to learn in
+                        an efficient way, will not repeat same mistakes and excel
+                        in their respective domain.
                     </p>
                     <div class="flex items-center mt-6">
                         <div class="flex items-center mt-4">
@@ -73,8 +72,7 @@ export default function MentorProject() {
                         </div>
                     </div>
                     <p class="ml-12 ">
-                        Mywedding website to be user friendly by providing clear navigation
-                        and offering a fast checkout process.
+                        Design an app / Website for social goods, That allows users to get mentorships from other designers.
                     </p>
                     <div class="flex items-center mt-6">
                         <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
@@ -88,7 +86,7 @@ export default function MentorProject() {
                         <h2 class="ml-4 text-lg font-medium">My Role</h2>
                     </div>
                     <p class="ml-12 ">
-                        UX designer leading the mywedding website design.
+                        UX designer designing an app/website for Mentor.
                     </p>
 
                     <div class="flex items-center mt-6">
@@ -104,9 +102,7 @@ export default function MentorProject() {
                         <h2 class="ml-4 text-lg font-medium">My Responsibilities</h2>
                     </div>
                     <p class="ml-12 ">
-                        Conducting interviews, paper and digital wireframing, low and
-                        high-fidelity prototyping, conducting usability studies, accounting
-                        for accessibility, iterating on designs and responsive design.
+                        Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, Iterating on designs and responsive design.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
@@ -116,35 +112,34 @@ export default function MentorProject() {
             </div>
 
             <h2 class="w-full mt-12 text-xl font-bold">UX Design Storyboard</h2>
-            <h4 class="w-full mt-4 "><span class="font-medium">Scenario :</span> An app to help users to take
-                mentorship from industry experts</h4>
+            <h4 class="w-full mt-4 "><span class="font-medium">Scenario :</span> An app to help users to take mentorship from industry experts
+            </h4>
             <div class="grid w-full grid-cols-12 gap-4 mt-6">
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/1.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rahul wants to get a mentor for his UX projects.</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rohan wants a mentor for his UX projects.</h4>
                 </div>
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/2.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rahul remember an app that can help.</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rohan remember's an app that can help.</h4>
                 </div>
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/3.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rahul uses our app to connect with mentors.</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rohan uses our app to connect with mentors.</h4>
                 </div>
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/4.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">In the app Rahul can pick a project and take help of
-                        others.</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">In this app Rohan can select a project and can take
+                        help from others.</h4>
                 </div>
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/5.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rahul can take project and submit the design and
-                        review by
-                        other designer</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rohan will submit the design and it will be reviewed by
+                        other designers.</h4>
                 </div>
                 <div class="flex flex-col col-span-12 rounded lg:col-span-6 xl:col-span-4">
                     <img src="./assets/mentor/storyBoard/6.png" class="rounded" alt="" />
-                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rahul is happy with mentorship of industy experts</h4>
+                    <h4 class="w-full mt-1 text-lg font-medium text-center">Rohan is happy with mentorship from  industy experts</h4>
                 </div>
             </div>
 
@@ -160,24 +155,9 @@ export default function MentorProject() {
                 <div class="col-span-12 lg:col-span-9 lg:col-start-4">
                     <h2 class="mt-2 font-xl">Summary</h2>
                     <p class="mt-2 ">
-                        I conducted user interviews, which I then turned into empathy maps
-                        to better understand the target user and their needs. I discovered
-                        that many target users treat online wedding booking as a fun and
-                        relaxing activity. However, many wedding websites are overwhelming
-                        and confusing to navigate, which frustrated many target users. This
-                        caused a normally enjoyable experience to become challenging for
-                        them, defeating the purpose of relaxation.
+                        I conducted user interviews, and which I then turned into empathy maps to better understand the target user and their needs. I discovered that many target users treat mentorship is costly. However, many mentorship websites are overwhelming and confusing to navigate, which frustrates many target users.
                     </p>
-                    <h2 class="mt-6 font-xl">Pain points</h2>
-                    <p class="mt-2 ">
-                        I conducted user interviews, which I then turned into empathy maps
-                        to better understand the target user and their needs. I discovered
-                        that many target users treat online wedding booking as a fun and
-                        relaxing activity. However, many wedding websites are overwhelming
-                        and confusing to navigate, which frustrated many target users. This
-                        caused a normally enjoyable experience to become challenging for
-                        them, defeating the purpose of relaxation.
-                    </p>
+
                     <div class="flex flex-col mt-2">
                         <div class="flex flex-col w-full my-2">
                             <div class="flex items-center">
@@ -187,8 +167,8 @@ export default function MentorProject() {
                                 <div class="ml-4 text-red-500">Navigation</div>
                             </div>
                             <p class="w-full mt-2 ml-10 text-sm ">
-                                Booking website designs are often busy, which results in
-                                confusing navigation
+                                Mentor designs are often busy,
+                                which results in confusing navigation.
                             </p>
                         </div>
 
@@ -200,8 +180,9 @@ export default function MentorProject() {
                                 <div class="ml-4 text-red-500">Interaction</div>
                             </div>
                             <p class="w-full mt-2 ml-10 text-sm ">
-                                Small buttons on shopping websites make item selection
-                                difficult, which sometimes leads users to make mistakes
+                                Small buttons on mentor project page make
+                                difficult to select, which sometimes leads users
+                                to make mistakes.
                             </p>
                         </div>
                         <div class="flex flex-col w-full my-2">
@@ -212,8 +193,8 @@ export default function MentorProject() {
                                 <div class="ml-4 text-red-500">Experience</div>
                             </div>
                             <p class="w-full mt-2 ml-10 text-sm ">
-                                Online wedding booking websites don't provide an engaging
-                                browsing experience
+                                Mentor websites provide
+                                an engaging browsing experience.
                             </p>
                         </div>
                         <div class="flex flex-col w-full my-2">
@@ -224,44 +205,46 @@ export default function MentorProject() {
                                 <div class="ml-4 text-red-500">Responsive</div>
                             </div>
                             <p class="w-full mt-2 ml-10 text-sm ">
-                                Created responsive design of My Wedding website
+                                Created responsive design of mentor
+                                website.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <h2 class="w-full mt-12 text-xl font-bold">User Persona: Deepak Patel</h2>
+            <h2 class="w-full mt-12 text-xl font-bold">User Persona: Gunjan Saxena</h2>
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <h2 class="text-lg font-medium">The Problem Statement</h2>
                     <p class="">
-                        Deepak Patel is a busy Software engineer who needs intuitive website navigation and search filters and
-                        testimonial section of a website because they want online wedding venue booking to be stress-free.
+                        Gunjan saxena is a busy BBA student who wants to create networks among other
+                        designer and build sustainable community of learners.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
                     <img src="./assets/mentor/3.png" class="w-full rounded" alt="" />
                 </div>
             </div>
-            <h2 class="w-full mt-12 text-xl font-bold">User Persona: Rahul</h2>
+            <h2 class="w-full mt-12 text-xl font-bold">User Persona: Raj Singh</h2>
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <h2 class="text-lg font-medium">The Problem Statement</h2>
                     <p class="">
-                        Rahul is an engineer
-                        who needs an app which can solve her wedding plans.
+                        Raj singh is BFA student
+                        who needs an app which provide  him industry
+                        experience and guidence.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
                     <img src="./assets/mentor/4.png" class="w-full rounded" alt="" />
                 </div>
             </div>
-            <h2 class="w-full mt-12 text-xl font-bold">User journey map: Deepak Patel</h2>
+            <h2 class="w-full mt-12 text-xl font-bold">User journey map: Gunjan Saxena</h2>
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        I created a user journey map of Deepak Patel experience using the site to help identify possible pain
+                        I created a user journey map of gunjan saxena experience using the site to help identify possible pain
                         points and improvement opportunities.
                     </p>
                 </div>
@@ -269,12 +252,12 @@ export default function MentorProject() {
                     <img src="./assets/mentor/5.png" class="w-full rounded" alt="" />
                 </div>
             </div>
-            <h2 class="w-full mt-12 text-xl font-bold">User journey map: Rahul</h2>
+            <h2 class="w-full mt-12 text-xl font-bold">User journey map: Raj Singh</h2>
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        Our wedding app let the users book their customize wedding venue by letting user skip the
-                        broker and saving them time.
+                        Our mentor app let the users book meeting with industry expert to get mentorships
+                        and strategic planing for their design projects.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
@@ -289,8 +272,7 @@ export default function MentorProject() {
                         knowledge to create a sitemap.
                         <br />
                         My goal here was to make strategic information architecture decisions that would improve overall
-                        website navigation. The structure I chose was designed to make things simple and easy.
-                    </p>
+                        website navigation. The structure I chose was designed to make things simple and easy. </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
                     <img src="./assets/mentor/7.png" class="w-full rounded" alt="" />
@@ -300,15 +282,15 @@ export default function MentorProject() {
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        I have designed this custom logo with services in mind. My wedding is virtual mobile app and
+                        I have designed this custom logo with education and learning in mind. Mentor is virtual mobile app and
                         website which solves users pain points,
                         And that needed an eye-catching, memorable logo
                         that empathized both elegance and fun.
                         I decided to create a design that has a brandable icon
-                        (Wedding vibes).
+                        (Mentorship) included in an clip art.
                         <br />
                         This brandable icon, also known as a brandmark, can be separated from the full
-                        script-style layout and used in a variety of ways.
+                        Brandmark layout and used in a variety of ways.
                         <br />
                         The versatility is this logo design makes it ideal for web and social media uses.
                     </p>
@@ -329,15 +311,9 @@ export default function MentorProject() {
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        Next, I sketched out paper wireframes for each screen in my app, keeping the user pain points
-                        about navigation, browsing, and checkout flow in mind.
-                        <br />
-                        The home screen paper wireframe variations to the right focus on optimizing the browsing
-                        experience for users.
-                        <br />
-                        Stars were used to mark the elements of each sketch
-                        that would be used in
-                        the initial digital wireframes.
+                        Next, I sketched out paper wireframes for each screen in my app, keeping the user pain points about navigation, browsing, and mentor profile and many more in mind.
+                        The home screen paper wireframe
+                        variations to the right focus on optimizing the browsing experience for users.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
@@ -350,7 +326,7 @@ export default function MentorProject() {
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        Because My Wedding customers access the site on a variety of different devices, I started to work
+                        Because Mentor users access the site on a variety of different devices, I started to work
                         on designs for additional screen sizes to make sure the site would be fully responsive.
                     </p>
                 </div>
@@ -368,8 +344,7 @@ export default function MentorProject() {
                         address user pain points and improve the user experience.
                         <br />
                         Prioritizing useful button locations and visual element placement on the home page was a key
-                        part of my strategy
-
+                        part of my strategy.
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
@@ -391,7 +366,7 @@ export default function MentorProject() {
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
                         To create a low-fidelity prototype, I connected all of the screens involved in the primary user flow of
-                        booking an item and checking out.
+                        selecting projects and project submission and more.
                         <br />
                         At this point, I had received feedback on my designs from members of my team about things like
                         placement of buttons and page organization. I made sure to listen to their feedback, and
@@ -473,14 +448,13 @@ export default function MentorProject() {
 
             <h2 class="w-full mt-12 text-xl font-bold">Mockups Website</h2>
             <p class="mt-4 ">
-                Based on the insights from the usability study, I made changes to improve the site's checkout flow. One of the
-                changes I made was adding the option to top selecting date area room for guests using
-                a simple button option. This allowed users more freedom to edit their date, day, number of room for guest,
-                location and more without going through a complicated process to add or remove one bye
+                Based on the insights from the usability study, I made changes to improve the site’s on solution and discussion buttons. One of the changes I made was adding the option to top navigation message
+                a simple button option. This allowed users more freedom to Chat with other designers without going through a complicated process to only staying on discussion reply.
                 one from diffrent option menue.
                 <br />
-                To make the payment flow even easier for users, I added a different payment methods that allowed users to use
-                for billing and Bookings.
+                To make the project review process even easier for users, I added a notification on top navigation bar so that user can get feedback whenever someone provide feedback to your projects or other any  other notification
+                like meeting confirmation with mentors.
+
             </p>
             <div class="grid w-full grid-cols-12 gap-4 mt-4">
                 <img src="./assets/mentor/17.png" class="w-full col-span-12 rounded lg:col-span-6" alt="" />
@@ -489,12 +463,10 @@ export default function MentorProject() {
 
             <h2 class="w-full mt-12 text-xl font-bold">Mockups Mobile App</h2>
             <p class="mt-4 ">
-                Early designs allowed for some customization, but after the usability studies, I added additional options to
-                view venue details.Now users see all the customization options when they first
-                land on the screen.
+                Early designs allowed for some customization, but after the usability studies, I added additional options to view user profile and settings details. Now users see all the customization options when they
+                click on the profile icon.
                 <br />
-                The second usability study revealed frustration with the payment flow. to streamline this flow, I consolidated
-                the “Booking confirmation” to one “Payment option” screen.
+                The second usability study revealed frustration with the notification sound. to streamline this flow, I added the notification mute and notification delete option on rights screen of notification details.
             </p>
             <div class="grid w-full grid-cols-12 gap-4 mt-4">
                 <img src="./assets/mentor/19.png" class="w-full col-span-12 rounded lg:col-span-6" alt="" />
@@ -536,10 +508,11 @@ export default function MentorProject() {
             <div class="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
                 <div class="col-span-12 lg:col-span-5">
                     <p class="">
-                        The final high-fidelity prototype presented cleaner user flows for building a Wedding and booking.
-                        It also met user needs for a book and as well as more customization.
+                        The final high-fidelity prototype presented cleaner user flows for building a Mentorship app/ website.
+                        It also met the user needs for a mentor meetings and as well as more customization.
                         <br />
-                        View the Wedding App high-fidelity prototype
+                        View the mentor App high-fidelity prototype
+
                     </p>
                 </div>
                 <div class="col-span-12 lg:col-span-6 lg:col-start-7">
@@ -555,7 +528,8 @@ export default function MentorProject() {
                         <path d="M27.543 16.8438V34H25.375V19.5508L21.0039 21.1445V19.1875L27.2031 16.8438H27.543Z" fill="white" />
                     </svg>
                     <p class="w-full mt-4 text-center md:text-justify">I used headings with different sized
-                        text for clear visual hierarchy. </p>
+                        text for clear visual hierarchy.
+                    </p>
                 </div>
                 <div class="flex flex-col items-center col-span-12 px-6 py-10 shadow-lg rounded-lg lg:px-10 md:col-span-4">
                     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" >
@@ -567,7 +541,7 @@ export default function MentorProject() {
 
                     <p class="w-full mt-4 text-center md:text-justify">I used landmarks to help users navigate
                         the site, including users who rely on
-                        assistive technologies. </p>
+                        assistive technologies.</p>
                 </div>
                 <div class="flex flex-col items-center col-span-12 px-6 py-10 shadow-lg rounded-lg lg:px-10 md:col-span-4">
                     <svg width="52" height="52" viewBox="0 0 52 52" fill="none" >
@@ -577,7 +551,7 @@ export default function MentorProject() {
                             fill="white" />
                     </svg>
 
-                    <p class="w-full mt-4 text-center md:text-justify">Used detailed imagery for venue booking
+                    <p class="w-full mt-4 text-center md:text-justify">Used detailed imagery for mentorship
                         to help all users better understand
                         the designs.
                     </p>
@@ -601,7 +575,7 @@ export default function MentorProject() {
                     <p class="w-full mt-4 text-center md:text-justify">Our target users shared that the design
                         was intuitive to navigate through, more
                         engaging with the images, and
-                        demonstrated a clear visual hierarchy. </p>
+                        demonstrated a clear visual hierarchy.</p>
                 </div>
                 <div class="flex flex-col items-center col-span-12 px-4 py-10 shadow-lg rounded-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" >
@@ -624,11 +598,9 @@ export default function MentorProject() {
 
 
                     <h2 class="w-full mt-4 text-lg font-medium text-center">What I learned:Resposive Website </h2>
-                    <p class="w-full mt-4 text-center md:text-justify">I learned that even a small design change can
-                        have a huge impact on the user experience.
-                        The most important takeaway for me is to
-                        always focus on the real needs of the user
-                        when coming up with design ideas and solutions. </p>
+                    <p class="w-full mt-4 text-center md:text-justify">Identify any additional areas of need and
+                        ideate on new features
+                    </p>
                 </div>
                 <div class="flex flex-col items-center col-span-12 px-4 py-10 shadow-lg rounded-lg md:col-span-6 xl:col-span-3">
                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" >
@@ -642,8 +614,8 @@ export default function MentorProject() {
 
 
                     <h2 class="w-full mt-4 text-lg font-medium text-center">Impact: Mobile App </h2>
-                    <p class="w-full mt-4 text-center md:text-justify">The app makes users feel like Wedding App
-                        really thinks about how to meet their needs.
+                    <p class="w-full mt-4 text-center md:text-justify">Conduct follow-up usability testing on
+                        the responsive website.
                     </p>
                 </div>
                 <div class="flex flex-col items-center col-span-12 px-4 py-10 shadow-lg rounded-lg md:col-span-6 xl:col-span-3">
@@ -666,11 +638,8 @@ export default function MentorProject() {
                     </svg>
 
                     <h2 class="w-full mt-4 text-lg font-medium text-center">What I learned:Mobile App </h2>
-                    <p class="w-full mt-4 text-center md:text-justify">While designing the Wedding app, I learned that
-                        the first ideas for the app are only the beginning
-                        of the process. Usability studies and peer
-                        feedback influenced each iteration of the
-                        app's designs.
+                    <p class="w-full mt-4 text-center md:text-justify">In future further I will improve more
+                        in my app design.
                     </p>
                 </div>
             </div>
@@ -726,7 +695,7 @@ export default function MentorProject() {
 
 
 
-           <BottomPagination  />
+            <BottomPagination />
         </main>
     )
 }
