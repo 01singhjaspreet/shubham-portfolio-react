@@ -26,17 +26,17 @@ export default function Nav() {
                     <h4 className="text-sm">UI/UX Designer</h4>
                 </Link>
                 <div className="flex items-center text-lg nav-links">
-                    <Link class="pb-2 mr-6 pt-1 transition-all group" to='/'>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/'>
                         Home
-                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <Link class="pb-2 mr-6 pt-1 transition-all group" to='/work'>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/work'>
                         Work
-                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <a class="pb-2 mr-6 pt-1 transition-all group" href={Resume} target="_blank" rel="noreferrer">
+                    <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer">
                         Resume
-                        <div class={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </a>
                 </div>
             </div>
@@ -56,13 +56,13 @@ export default function Nav() {
                     <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
                 </div>
                 <div className="flex flex-col text-lg hamMenuOpenScreen__content">
-                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/'  onClick={handleCloseHamMenu}>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group w-max w-fit" to='/'  onClick={handleCloseHamMenu}>
                         Home
-                        <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    <Link class="pb-2 mr-6 pt-1 transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
                         Work
-                        <div class={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
                     <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
