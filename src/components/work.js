@@ -15,11 +15,11 @@ export default function Work() {
                 <Link to="/wedding-project"
                     class="inline-block transition-all duration-300 transform group hover:scale-105 ">
                     <span
-                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 opacity-70">WEB
+                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">WEB
                         DESIGN / BRANDING</span>
                     <img src={Wedding} class="object-cover object-center h-56 rounded-md shadow-lg w-96"
                         alt="" />
-                    <h2 class="mt-1 text-sm">
+                    <h2 class="mt-1">
                         My Wedding Google UI/UX Assignment Project
                     </h2>
                     <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
@@ -32,11 +32,11 @@ export default function Work() {
                 <Link to="/mentor-project"
                     class="inline-block transition-all duration-300 transform group hover:scale-105 ">
                     <span
-                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 opacity-70">WEB
+                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">WEB
                         DESIGN / BRANDING</span>
                     <img src={Mentor} class="object-cover object-center h-56 rounded-md shadow-lg w-96"
                         alt="" />
-                    <h2 class="mt-1 text-sm">Mentor</h2>
+                    <h2 class="mt-1">Mentor</h2>
                     <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
@@ -47,11 +47,11 @@ export default function Work() {
                 <Link to="/metal-n-clay-logo-project"
                     class="inline-block transition-all duration-300 transform group hover:scale-105 ">
                     <span
-                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 opacity-70">LOGO
+                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">LOGO
                         DESIGN / BRANDING</span>
                     <img src={MetalnClay}
                         class="object-cover object-center h-56 rounded-md shadow-lg w-96" alt="" />
-                    <h2 class="mt-1 text-sm">Metal N Clay</h2>
+                    <h2 class="mt-1">Metal N Clay</h2>
                     <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
@@ -62,11 +62,11 @@ export default function Work() {
                 <Link to="/kathas-entertainment-logo-project"
                     class="inline-block transition-all duration-300 transform group hover:scale-105 ">
                     <span
-                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 opacity-70">LOGO
+                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">LOGO
                         DESIGN / BRANDING</span>
                     <img src={Kathas} class="object-cover object-center h-56 rounded-md shadow-lg w-96"
                         alt="" />
-                    <h2 class="mt-1 text-sm">Kathas Entertainments</h2>
+                    <h2 class="mt-1">Kathas Entertainments</h2>
                     <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
@@ -79,9 +79,9 @@ export default function Work() {
                     <img src={Trident}
                         class="object-cover object-center h-56 rounded-md shadow-lg w-96" alt="" />
                     <span
-                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 opacity-70">LOGO
+                        class="absolute top-0 right-0 inline-block px-2 py-1 text-xs text-white transition-all bg-black rounded-tr group-hover:bg-violet-600 bg-opacity-70">LOGO
                         DESIGN / BRANDING</span>
-                    <h2 class="mt-1 text-sm">Trident</h2>
+                    <h2 class="mt-1">Trident</h2>
                     <button class="pb-2 pt-1 text-lg font-semibold transition-all group mainÏ">
                         View Project
                         <div class="h-1 w-0 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5"></div>
