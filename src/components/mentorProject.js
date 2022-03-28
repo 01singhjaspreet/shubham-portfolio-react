@@ -149,7 +149,7 @@ export default function MentorProject() {
             <img src={require("../assets/mentor/storyBoard/Mentor--affinity-diagram.jpg")} alt="" />
 
 
-            <div className="grid grid-cols-12 gap-2.5 mt-12">
+            <div className="grid grid-cols-12 gap-2.5 mt-12 w-full">
                 <div className="col-span-12 lg:col-span-2">
                     <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Summary</h2>
                 </div>
@@ -160,7 +160,7 @@ export default function MentorProject() {
 
                 </div>
             </div>
-            <div className="grid grid-cols-12 gap-2.5 mt-12">
+            <div className="grid grid-cols-12 gap-2.5 mt-12 w-full">
                 <div className="col-span-12 lg:col-span-2">
                     <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Pain points</h2>
                 </div>
@@ -172,7 +172,7 @@ export default function MentorProject() {
                             </div>
                             <div className="ml-4 text-red-500">Navigation</div>
                         </div>
-                        <p className="w-full mt-2 ml-10 text-sm ">
+                        <p className="w-full pl-10 mt-2 text-sm ">
                             Mentor designs are often busy,
                             which results in confusing navigation.
                         </p>
@@ -185,7 +185,7 @@ export default function MentorProject() {
                             </div>
                             <div className="ml-4 text-red-500">Interaction</div>
                         </div>
-                        <p className="w-full mt-2 ml-10 text-sm ">
+                        <p className="w-full pl-10 mt-2 text-sm ">
                             Small buttons on mentor project page make
                             difficult to select, which sometimes leads users
                             to make mistakes.
@@ -198,7 +198,7 @@ export default function MentorProject() {
                             </div>
                             <div className="ml-4 text-red-500">Experience</div>
                         </div>
-                        <p className="w-full mt-2 ml-10 text-sm ">
+                        <p className="w-full pl-10 mt-2 text-sm ">
                             Mentor websites provide
                             an engaging browsing experience.
                         </p>
@@ -210,7 +210,7 @@ export default function MentorProject() {
                             </div>
                             <div className="ml-4 text-red-500">Responsive</div>
                         </div>
-                        <p className="w-full mt-2 ml-10 text-sm ">
+                        <p className="w-full pl-10 mt-2 text-sm ">
                             Created responsive design of mentor
                             website.
                         </p>
