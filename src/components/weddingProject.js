@@ -4,7 +4,7 @@ import BottomPagination from './bottomPagination';
 export default function WeddingProject() {
     React.useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
             <h2 className="w-full text-xl font-bold">Project Overview</h2>
@@ -149,11 +149,10 @@ export default function WeddingProject() {
             </div>
             <div className="grid grid-cols-12 gap-2.5 mt-12">
                 <div className="col-span-12 lg:col-span-2">
-                    <h2 className="w-full text-xl font-bold">User research</h2>
+                    <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Summary</h2>
                 </div>
                 <div className="col-span-12 lg:col-span-9 lg:col-start-4">
-                    <h2 className="mt-2 font-xl">Summary</h2>
-                    <p className="mt-2 ">
+                    <p className="">
                         I conducted user interviews, which I then turned into empathy maps
                         to better understand the target user and their needs. I discovered
                         that many target users treat online wedding booking as a fun and
@@ -162,17 +161,12 @@ export default function WeddingProject() {
                         caused a normally enjoyable experience to become challenging for
                         them, defeating the purpose of relaxation.
                     </p>
-                    <h2 className="mt-6 font-xl">Pain points</h2>
-                    <p className="mt-2 ">
-                        I conducted user interviews, which I then turned into empathy maps
-                        to better understand the target user and their needs. I discovered
-                        that many target users treat online wedding booking as a fun and
-                        relaxing activity. However, many wedding websites are overwhelming
-                        and confusing to navigate, which frustrated many target users. This
-                        caused a normally enjoyable experience to become challenging for
-                        them, defeating the purpose of relaxation.
-                    </p>
-                    <div className="flex flex-col mt-2">
+                </div>
+                <div className="col-span-12 mt-6 lg:col-span-2">
+                    <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Pain points</h2>
+                </div>
+                <div className="col-span-12 mt-6 lg:col-span-9 lg:col-start-4">
+                    <div className="flex flex-col ">
                         <div className="flex flex-col w-full my-2">
                             <div className="flex items-center">
                                 <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">

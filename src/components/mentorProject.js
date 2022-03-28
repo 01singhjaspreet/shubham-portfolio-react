@@ -108,7 +108,7 @@ export default function MentorProject() {
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
                     <img src={require("../assets/mentor/25.png")} className="w-full rounded" alt="" />
-                    <img src={require("../assets/mentor/26.png")} className="w-full mt-4 rounded" alt="" />
+                    <img src={require("../assets/mentor/23.png")} className="w-full mt-4 rounded" alt="" />
                 </div>
             </div>
 
@@ -151,67 +151,73 @@ export default function MentorProject() {
 
             <div className="grid grid-cols-12 gap-2.5 mt-12">
                 <div className="col-span-12 lg:col-span-2">
-                    <h2 className="w-full text-xl font-bold">User research: Summary</h2>
+                    <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Summary</h2>
                 </div>
                 <div className="col-span-12 lg:col-span-9 lg:col-start-4">
                     <p className="mt-2 ">
                         I conducted user interviews, and which I then turned into empathy maps to better understand the target user and their needs. I discovered that many target users treat mentorship is costly. However, many mentorship websites are overwhelming and confusing to navigate, which frustrates many target users.
                     </p>
 
-                    <div className="flex flex-col mt-2">
-                        <div className="flex flex-col w-full my-2">
-                            <div className="flex items-center">
-                                <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
-                                    1
-                                </div>
-                                <div className="ml-4 text-red-500">Navigation</div>
+                </div>
+            </div>
+            <div className="grid grid-cols-12 gap-2.5 mt-12">
+                <div className="col-span-12 lg:col-span-2">
+                    <h2 className="w-full text-xl font-bold whitespace-nowrap">User research: Pain points</h2>
+                </div>
+                <div className="flex flex-col col-span-12 mt-2 lg:col-span-9 lg:col-start-4">
+                    <div className="flex flex-col w-full my-2">
+                        <div className="flex items-center">
+                            <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
+                                1
                             </div>
-                            <p className="w-full mt-2 ml-10 text-sm ">
-                                Mentor designs are often busy,
-                                which results in confusing navigation.
-                            </p>
+                            <div className="ml-4 text-red-500">Navigation</div>
                         </div>
+                        <p className="w-full mt-2 ml-10 text-sm ">
+                            Mentor designs are often busy,
+                            which results in confusing navigation.
+                        </p>
+                    </div>
 
-                        <div className="flex flex-col w-full my-2">
-                            <div className="flex items-center">
-                                <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
-                                    2
-                                </div>
-                                <div className="ml-4 text-red-500">Interaction</div>
+                    <div className="flex flex-col w-full my-2">
+                        <div className="flex items-center">
+                            <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
+                                2
                             </div>
-                            <p className="w-full mt-2 ml-10 text-sm ">
-                                Small buttons on mentor project page make
-                                difficult to select, which sometimes leads users
-                                to make mistakes.
-                            </p>
+                            <div className="ml-4 text-red-500">Interaction</div>
                         </div>
-                        <div className="flex flex-col w-full my-2">
-                            <div className="flex items-center">
-                                <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
-                                    3
-                                </div>
-                                <div className="ml-4 text-red-500">Experience</div>
+                        <p className="w-full mt-2 ml-10 text-sm ">
+                            Small buttons on mentor project page make
+                            difficult to select, which sometimes leads users
+                            to make mistakes.
+                        </p>
+                    </div>
+                    <div className="flex flex-col w-full my-2">
+                        <div className="flex items-center">
+                            <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
+                                3
                             </div>
-                            <p className="w-full mt-2 ml-10 text-sm ">
-                                Mentor websites provide
-                                an engaging browsing experience.
-                            </p>
+                            <div className="ml-4 text-red-500">Experience</div>
                         </div>
-                        <div className="flex flex-col w-full my-2">
-                            <div className="flex items-center">
-                                <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
-                                    4
-                                </div>
-                                <div className="ml-4 text-red-500">Responsive</div>
+                        <p className="w-full mt-2 ml-10 text-sm ">
+                            Mentor websites provide
+                            an engaging browsing experience.
+                        </p>
+                    </div>
+                    <div className="flex flex-col w-full my-2">
+                        <div className="flex items-center">
+                            <div className="flex items-center justify-center w-6 h-6 text-white bg-red-500 rounded-full h-">
+                                4
                             </div>
-                            <p className="w-full mt-2 ml-10 text-sm ">
-                                Created responsive design of mentor
-                                website.
-                            </p>
+                            <div className="ml-4 text-red-500">Responsive</div>
                         </div>
+                        <p className="w-full mt-2 ml-10 text-sm ">
+                            Created responsive design of mentor
+                            website.
+                        </p>
                     </div>
                 </div>
             </div>
+
 
             <h2 className="w-full mt-12 text-xl font-bold">User Persona: Gunjan Saxena</h2>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
@@ -478,19 +484,19 @@ export default function MentorProject() {
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/23.png")}
+                <img src={require("../assets/mentor/2.png")}
                     className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/24.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/24.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/25.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/26.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/25.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/26.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/27.png")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/28.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/27.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/28.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
 
