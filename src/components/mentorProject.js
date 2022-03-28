@@ -4,7 +4,7 @@ import BottomPagination from './bottomPagination';
 
 export default function MentorProject() {
     React.useEffect(() => {
-        // window.scrollTo(0, 0)
+        window.scrollTo(0, 0)
     }, [])
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
