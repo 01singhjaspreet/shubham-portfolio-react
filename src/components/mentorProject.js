@@ -107,8 +107,8 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/25.png")} className="w-full rounded" alt="" />
-                    <img src={require("../assets/mentor/23.png")} className="w-full mt-4 rounded" alt="" />
+                    <img src={require("../assets/mentor/1.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/2.png")} className="w-full mt-4 rounded" alt="" />
                 </div>
             </div>
 
@@ -484,7 +484,7 @@ export default function MentorProject() {
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/2.png")}
+                <img src={require("../assets/mentor/23.png")}
                     className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
                 <img src={require("../assets/mentor/24.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>

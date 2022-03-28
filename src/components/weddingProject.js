@@ -111,7 +111,7 @@ export default function WeddingProject() {
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
                     <img src={require('../assets/wedding/1.jpg')} className="w-full rounded" alt="" />
-                    <img src={require("../assets/wedding/25.jpg")} className="w-full mt-4 rounded" alt="" />
+                    <img src={require("../assets/wedding/2.jpg")} className="w-full mt-4 rounded" alt="" />
                 </div>
             </div>
 
