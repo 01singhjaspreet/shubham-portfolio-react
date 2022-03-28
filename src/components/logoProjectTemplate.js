@@ -1,6 +1,6 @@
 import React from "react";
 import BottomPagination from "./bottomPagination";
-export default function LogoProjectTemplate({description, category, type, images}) {
+export default function LogoProjectTemplate({ description, category, type, images }) {
     return (
         <main
             className="container flex flex-col items-center justify-center px-4 mx-auto mt-10"
@@ -30,7 +30,7 @@ export default function LogoProjectTemplate({description, category, type, images
             <div className="grid w-full grid-cols-12 col-span-12 gap-4 mt-4">
                 <img
                     src={images[1]}
-                    className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6"
+                    className="object-cover object-center w-full col-span-12 mt-2 text-sm rounded lg:col-span-6"
                     alt=""
                 />
                 <img
@@ -42,12 +42,12 @@ export default function LogoProjectTemplate({description, category, type, images
             <div className="grid w-full grid-cols-12 col-span-12 gap-4 mt-4">
                 <img
                     src={images[3]}
-                    className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6"
+                    className="object-cover w-full col-span-12 mt-2 text-sm rounded object-centerw-full lg:col-span-6"
                     alt=""
                 />
                 <img
                     src={images[4]}
-                    className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6"
+                    className="object-cover w-full col-span-12 mt-2 text-sm rounded object-centerw-full lg:col-span-6"
                     alt=""
                 />
             </div>

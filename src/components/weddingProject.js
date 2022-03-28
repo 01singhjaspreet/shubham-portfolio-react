@@ -492,8 +492,7 @@ export default function WeddingProject() {
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/wedding/21.jpg")}
-                    className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/21.jpg")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
                 <img src={require("../assets/wedding/22.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
@@ -503,7 +502,7 @@ export default function WeddingProject() {
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/wedding/25.jpg")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/wedding/25.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
                 <img src={require("../assets/wedding/26.jpg")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 

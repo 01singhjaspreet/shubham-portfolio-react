@@ -485,18 +485,18 @@ export default function MentorProject() {
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
                 <img src={require("../assets/mentor/23.png")}
-                    className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/24.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                    className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/24.png")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/25.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/26.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/25.png")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/26.png")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/27.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/28.png")} className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/27.png")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/28.png")} className="object-cover object-center w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
 

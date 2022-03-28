@@ -40,12 +40,12 @@ export default function Nav() {
                     </a>
                 </div>
             </div>
-            <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
+            <div className="container flex items-center justify-between  sm:hidden hamMenu">
                 <Link to="/">
                     <h1 className="text-xl font-bold">Shubham Mourya</h1>
                     <h4 className="text-sm">UI/UX Designer</h4>
                 </Link>
-                <div className="relative flex flex-col items-center justify-center h-full">
+                <div className="relative flex flex-col items-center justify-center ">
                     <div className="hamMenu__ballIcon"></div>
                     <img src={hamIcon} className="w-9 h-9" alt='hamburger' onClick={handleOpenHamMenu} />
                 </div>
