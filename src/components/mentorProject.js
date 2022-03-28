@@ -4,8 +4,8 @@ import BottomPagination from './bottomPagination';
 
 export default function MentorProject() {
     React.useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+        // window.scrollTo(0, 0)
+    }, [])
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
             <h2 className="w-full text-xl font-bold">Project Overview</h2>
@@ -151,10 +151,9 @@ export default function MentorProject() {
 
             <div className="grid grid-cols-12 gap-2.5 mt-12">
                 <div className="col-span-12 lg:col-span-2">
-                    <h2 className="w-full text-xl font-bold">User research</h2>
+                    <h2 className="w-full text-xl font-bold">User research: Summary</h2>
                 </div>
                 <div className="col-span-12 lg:col-span-9 lg:col-start-4">
-                    <h2 className="mt-2 font-xl">Summary</h2>
                     <p className="mt-2 ">
                         I conducted user interviews, and which I then turned into empathy maps to better understand the target user and their needs. I discovered that many target users treat mentorship is costly. However, many mentorship websites are overwhelming and confusing to navigate, which frustrates many target users.
                     </p>
@@ -310,29 +309,31 @@ export default function MentorProject() {
 
             <h2 className="w-full mt-12 text-xl font-bold">Paper Wireframe</h2>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
-                <div className="col-span-12 lg:col-span-5">
+                <div className="col-span-12">
                     <p className="">
                         Next, I sketched out paper wireframes for each screen in my app, keeping the user pain points about navigation, browsing, and mentor profile and many more in mind.
                         The home screen paper wireframe
                         variations to the right focus on optimizing the browsing experience for users.
                     </p>
                 </div>
-                <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/11.png")} className="w-full rounded" alt="" />
+                <div className="grid grid-cols-12 col-span-12 gap-4 mt-4">
+                    <img src={require("../assets/mentor/11.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/mentor/12.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
                 </div>
             </div>
             <h2 className="w-full mt-12 text-xl font-bold">Paper wireframe
                 screen size variation(s)
             </h2>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
-                <div className="col-span-12 lg:col-span-5">
+                <div className="col-span-12 ">
                     <p className="">
                         Because Mentor users access the site on a variety of different devices, I started to work
                         on designs for additional screen sizes to make sure the site would be fully responsive.
                     </p>
                 </div>
-                <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/12.png")} className="w-full rounded" alt="" />
+                <div className="grid grid-cols-12 col-span-12 gap-4 mt-4">
+                    <img src={require("../assets/mentor/13.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                    <img src={require("../assets/mentor/14.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
                 </div>
             </div>
 
@@ -349,7 +350,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/13.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/15.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -357,8 +358,8 @@ export default function MentorProject() {
                 screen size variation(s)
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/14.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/15.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/16.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/17.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Low-fidelity prototype
@@ -375,7 +376,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/16.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/18.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
@@ -458,8 +459,8 @@ export default function MentorProject() {
 
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/17.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/18.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/19.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/20.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups Mobile App</h2>
@@ -470,26 +471,26 @@ export default function MentorProject() {
                 The second usability study revealed frustration with the notification sound. to streamline this flow, I added the notification mute and notification delete option on rights screen of notification details.
             </p>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/19.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/20.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/21.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/22.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Original screen size
             </h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/21.png")}
+                <img src={require("../assets/mentor/23.png")}
                     className="object-cover object-center w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/22.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/24.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/1.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/24.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/25.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/26.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
             <h2 className="w-full mt-12 text-xl font-bold">Mockups: Screen size variations</h2>
             <div className="grid w-full grid-cols-12 gap-4 mt-4">
-                <img src={require("../assets/mentor/2.png")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
-                <img src={require("../assets/mentor/26.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/27.png")} className="w-full h-full col-span-12 rounded lg:col-span-6" alt="" />
+                <img src={require("../assets/mentor/28.png")} className="w-full col-span-12 rounded lg:col-span-6" alt="" />
             </div>
 
 
@@ -503,7 +504,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/27.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/29.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
@@ -517,7 +518,7 @@ export default function MentorProject() {
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-6 lg:col-start-7">
-                    <img src={require("../assets/mentor/28.png")} className="w-full rounded" alt="" />
+                    <img src={require("../assets/mentor/30.png")} className="w-full rounded" alt="" />
                 </div>
             </div>
 
