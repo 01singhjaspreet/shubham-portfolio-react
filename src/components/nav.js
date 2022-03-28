@@ -40,12 +40,12 @@ export default function Nav() {
                     </a>
                 </div>
             </div>
-            <div className="container flex items-center justify-between  sm:hidden hamMenu">
+            <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
                 <Link to="/">
                     <h1 className="text-xl font-bold">Shubham Mourya</h1>
                     <h4 className="text-sm">UI/UX Designer</h4>
                 </Link>
-                <div className="relative flex flex-col items-center justify-center ">
+                <div className="relative flex flex-col items-center justify-center h-full">
                     <div className="hamMenu__ballIcon"></div>
                     <img src={hamIcon} className="w-9 h-9" alt='hamburger' onClick={handleOpenHamMenu} />
                 </div>
@@ -56,7 +56,7 @@ export default function Nav() {
                     <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
                 </div>
                 <div className="flex flex-col text-lg hamMenuOpenScreen__content">
-                    <Link className="pt-1 pb-2 mr-6 transition-all group w-max w-fit" to='/'  onClick={handleCloseHamMenu}>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group w-max w-fit" to='/' onClick={handleCloseHamMenu}>
                         Home
                         <div className={`h-0.5 duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
