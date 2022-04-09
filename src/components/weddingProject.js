@@ -8,8 +8,8 @@ export default function WeddingProject() {
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
             <h2 className="w-full text-xl font-bold">Project Overview</h2>
-            <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
-                <div className="col-span-12 mb-6 lg:col-span-5">
+            <div className="grid grid-cols-12 gap-2.5 lg:mt-6 w-full text-gray-700 ">
+                <div className="order-2 col-span-12 mt-6 mb-6 lg:mt-0 lg:col-span-5 lg:order-1">
                     <div className="flex items-center">
                         <svg width="32" height="32" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -109,7 +109,7 @@ export default function WeddingProject() {
                         for accessibility, iterating on designs and responsive design.
                     </p>
                 </div>
-                <div className="col-span-12 lg:col-span-6 lg:col-start-7">
+                <div className="order-1 col-span-12 mt-6 lg:col-span-6 lg:col-start-7 lg:order-2 lg:mt-0">
                     <img src={require('../assets/wedding/1.jpg')} className="w-full rounded" alt="" />
                     <img src={require("../assets/wedding/2.jpg")} className="w-full mt-4 rounded" alt="" />
                 </div>

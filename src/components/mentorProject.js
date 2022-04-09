@@ -1,16 +1,15 @@
-
 import React from 'react';
 import BottomPagination from './bottomPagination';
 
 export default function MentorProject() {
     React.useEffect(() => {
-        window.scrollTo(0, 0)
+        // window.scrollTo(0, 0)
     }, [])
     return (
         <main className="container flex flex-col items-center justify-center px-4 mx-auto mt-10">
             <h2 className="w-full text-xl font-bold">Project Overview</h2>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
-                <div className="col-span-12 mb-6 lg:col-span-5">
+                <div className="order-2 col-span-12 mt-6 mb-6 lg:mt-0 lg:col-span-5 lg:order-1">
                     <div className="flex items-center">
                         <svg width="32" height="32" viewBox="0 0 41 41" fill="none" >
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -106,7 +105,7 @@ export default function MentorProject() {
                         Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, Iterating on designs and responsive design.
                     </p>
                 </div>
-                <div className="col-span-12 lg:col-span-6 lg:col-start-7">
+                <div className="order-1 col-span-12 mt-6 lg:col-span-6 lg:col-start-7 lg:order-2 lg:mt-0">
                     <img src={require("../assets/mentor/1.png")} className="w-full rounded" alt="" />
                     <img src={require("../assets/mentor/2.png")} className="w-full mt-4 rounded" alt="" />
                 </div>
@@ -606,8 +605,11 @@ export default function MentorProject() {
 
 
                     <h2 className="w-full mt-4 text-lg font-medium text-center">What I learned:Resposive Website </h2>
-                    <p className="w-full mt-4 text-center md:text-justify">Identify any additional areas of need and
-                        ideate on new features
+                    <p className="w-full mt-4 text-center md:text-justify">I learned that even a small design change can
+                        have a huge impact on the user experience.
+                        The most important takeaway for me is to
+                        always focus on the real needs of the user
+                        when coming up with design ideas and solutions.
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded-lg shadow-lg md:col-span-6 xl:col-span-3">
@@ -622,8 +624,8 @@ export default function MentorProject() {
 
 
                     <h2 className="w-full mt-4 text-lg font-medium text-center">Impact: Mobile App </h2>
-                    <p className="w-full mt-4 text-center md:text-justify">Conduct follow-up usability testing on
-                        the responsive website.
+                    <p className="w-full mt-4 text-center md:text-justify">The app makes users feel like mentor App
+                        really thinks about how to meet their users needs.
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded-lg shadow-lg md:col-span-6 xl:col-span-3">
@@ -646,8 +648,11 @@ export default function MentorProject() {
                     </svg>
 
                     <h2 className="w-full mt-4 text-lg font-medium text-center">What I learned:Mobile App </h2>
-                    <p className="w-full mt-4 text-center md:text-justify">In future further I will improve more
-                        in my app design.
+                    <p className="w-full mt-4 text-center md:text-justify">While designing the mentor app, I learned that
+                        the first ideas for the app are only the beginning
+                        of the process. Usability studies and peer
+                        feedback influenced each iteration of the
+                        app's designs.
                     </p>
                 </div>
             </div>
@@ -660,10 +665,9 @@ export default function MentorProject() {
                         <circle cx="16" cy="16" r="16" fill="#5F6368" />
                         <path d="M17.6953 10.5625V22H16.25V12.3672L13.3359 13.4297V12.125L17.4688 10.5625H17.6953Z" fill="white" />
                     </svg>
-                    <p className="w-full mt-4 text-center md:text-justify">Our target users shared that the design
-                        Conduct another round of usability studies
+                    <p className="w-full mt-4 text-center md:text-justify">Conduct another round of usability studies
                         to validate whether the pain points users
-                        experienced have been effectively addressed. </p>
+                        experienced have been effectively addressed.</p>
                 </div>
                 <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded-lg shadow-lg md:col-span-6 xl:col-span-3">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" >
@@ -673,7 +677,7 @@ export default function MentorProject() {
                             fill="white" />
                     </svg>
                     <p className="w-full mt-4 text-center md:text-justify">Identify any additional areas of need and
-                        ideate on new features
+                        ideate on new features.
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded-lg shadow-lg md:col-span-6 xl:col-span-3">
@@ -684,7 +688,7 @@ export default function MentorProject() {
                             fill="white" />
                     </svg>
                     <p className="w-full mt-4 text-center md:text-justify">Conduct follow-up usability testing on
-                        the responsive website
+                        the responsive website.
                     </p>
                 </div>
                 <div className="flex flex-col items-center col-span-12 px-4 py-10 rounded-lg shadow-lg md:col-span-6 xl:col-span-3">
@@ -696,7 +700,6 @@ export default function MentorProject() {
                     </svg>
                     <p className="w-full mt-4 text-center md:text-justify">In future further I will improve more
                         in my app design.
-
                     </p>
                 </div>
             </div>

@@ -117,15 +117,13 @@ body {
     justify-content: flex-end;
   }
   .hamMenuOpenScreen__content {
-    padding: 0 16px;
+    height: calc(100vh - 148px);
+    padding: 0 48px;
     display: flex;
     flex-direction: column;
   }
   .hamMenuOpenScreen__content a {
-    font-size: 18px;
-    line-height: 22px;
     text-decoration: none;
-    margin: 10px 0;
   }
 
   .hamMenuOpenScreen__header__ballIcon {

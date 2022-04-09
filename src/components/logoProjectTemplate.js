@@ -5,10 +5,11 @@ export default function LogoProjectTemplate({ description, category, type, image
         <main
             className="container flex flex-col items-center justify-center px-4 mx-auto mt-10"
         >
+             <h1 className="w-full text-lg font-medium">Logo Description</h1>
             <div className="grid grid-cols-12 gap-2.5 mt-6 w-full text-gray-700">
-                <div className="col-span-12 lg:col-span-5">
-                    <h2 className="text-lg font-medium">Logo Description</h2>
-                    <p className="w-full mt-6 ">
+                <div className="order-2 col-span-12 lg:col-span-5 lg:order-1">
+                   
+                    <p className="w-full ">
                         {description}
                     </p>
                     <h2 className="w-full mt-6 text-lg font-semibold">Details</h2>
@@ -19,7 +20,7 @@ export default function LogoProjectTemplate({ description, category, type, image
                         <span className="font-medium">Type:</span> {type}
                     </p>
                 </div>
-                <div className="col-span-12 lg:col-span-6 lg:col-start-7">
+                <div className="order-1 col-span-12 lg:col-span-6 lg:col-start-7 lg:order-2">
                     <img
                         src={images[0]}
                         className="object-cover object-center w-full rounded"
