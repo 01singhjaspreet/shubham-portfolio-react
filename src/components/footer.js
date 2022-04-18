@@ -4,7 +4,7 @@ import Instagram from '../assets/social/instagram.svg';
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col items-center w-full pt-10 mt-20 bg-gray-700">
+        <footer className="flex flex-col items-center w-full pt-10 mt-20 bg-violet-600">
             <div className="text-4xl font-bold text-gray-100 xl:text-5xl">
                 Let's get in touch
             </div>
