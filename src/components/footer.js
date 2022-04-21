@@ -4,11 +4,11 @@ import Instagram from '../assets/social/instagram.svg';
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col items-center w-full pt-10 mt-20 text-white bg-violet-600">
-            <div className="text-4xl font-bold xl:text-5xl">
+        <footer className="flex flex-col items-center w-full pt-10 mt-20 bg-gray-800">
+            <div className="text-4xl font-bold text-white xl:text-5xl">
                 Let's get in touch
             </div>
-            <a className="inline-block mt-2 underline"
+            <a className="inline-block mt-2 text-white underline"
                 href="mailto:shubhammourya148@gmail.com">shubhammourya148@gmail.com</a>
             <div className="flex items-center justify-center w-full mt-4">
                 <a href="https://www.linkedin.com/in/shubham-mourya-89193a217/" className="mx-2">
