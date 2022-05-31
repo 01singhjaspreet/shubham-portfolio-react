@@ -22,8 +22,7 @@ export default function Home() {
                     skill-set to empower people to accomplish their goals.
                 </p>
                 <p className="leading-5 ">
-                    My development stack is focused on performance & accessibility with
-                    delightful interactions.
+                    I perfectly balance user and business needs to create delightful products.
                 </p>
             </div>
         </main>
