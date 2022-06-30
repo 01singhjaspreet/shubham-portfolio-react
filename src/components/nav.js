@@ -64,7 +64,8 @@ export default function Nav() {
                         Work
                         { isWork &&<div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
                     </Link>
-                    <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
+                    {/* <a href={Resume} target="_blank" rel="noreferrer">Resume</a> */}
+                    <a href='#' target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
             <div className="color-transition"></div>
