@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function BottomPagination() {
     let location = useLocation();
     const projectPathList = [
+        "/nasta-project",
         "/wedding-project",
         "/mentor-project",
         "/metal-n-clay-logo-project",

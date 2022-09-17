@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         violet: {
           600: "#A16AE6",
+          1000: "#8848D8"
         },
       },
     },
