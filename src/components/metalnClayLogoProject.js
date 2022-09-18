@@ -33,6 +33,7 @@ export default function MetalProject() {
             category={"E-Commerce"}
             type={"Wordmark logo design"}
             images={[one, two, three, four, five]}
+            url={'https://metalnclay.com/'}
         />
     )
 }

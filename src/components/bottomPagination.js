@@ -5,11 +5,11 @@ export default function BottomPagination() {
     let location = useLocation();
     const projectPathList = [
         "/nasta-project",
-        "/wedding-project",
-        "/mentor-project",
         "/metal-n-clay-logo-project",
         "/kathas-entertainment-logo-project",
         "/trident-logo-project",
+        "/wedding-project",
+        "/mentor-project",
     ];
 
     const getCurrProjectIndex = () => {
