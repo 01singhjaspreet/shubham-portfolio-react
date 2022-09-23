@@ -8,7 +8,6 @@ export default function BottomPagination() {
         "/metal-n-clay-logo-project",
         "/kathas-entertainment-logo-project",
         "/trident-logo-project",
-        "/wedding-project",
         "/mentor-project",
     ];
 
