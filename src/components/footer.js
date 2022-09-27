@@ -9,7 +9,7 @@ export default function Footer() {
                 Let's get in touch
             </div>
             <a className="inline-block mt-2 text-white underline"
-                href="mailto:shubhammourya15081998@gmail.com">shubhammourya148@gmail.com</a>
+                href="mailto:shubhammourya148@gmail.com">shubhammourya148@gmail.com</a>
             <div className="flex items-center justify-center w-full mt-4">
                 <a href="https://www.linkedin.com/in/shubham-mourya-89193a217/" className="mx-2">
                     <img src={Linkedin} alt="" />
