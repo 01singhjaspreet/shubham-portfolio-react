@@ -26,9 +26,6 @@ export default function Footer() {
             <a href="https://jaspreetportfolio.netlify.app/" className="underline ml-0.5">Jaspreet</a>
           </span>
         </div>
-        <div className="mt-2 text-xs text-center">
-          Icons courtesy of FlatIcon. Images courtesy of Unsplash and Freepik.
-        </div>
       </div>
     </footer>
   )
