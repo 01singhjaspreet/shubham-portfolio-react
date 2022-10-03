@@ -2,7 +2,7 @@ import React from "react";
 import LogoProjectTemplate from "./logoProjectTemplate";
 import one from "../assets/Metal-logo/Metal-N-Clay.png";
 import two from "../assets/Metal-logo/Metal-n-clay-2.png";
-import three from "../assets/Metal-logo/Metal-And-clay-3.jpg";
+import three from "../assets/Metal-logo/Metal-And-clay-3.png";
 import four from "../assets/Metal-logo/MetalN-clay-White.jpg";
 import five from "../assets/Metal-logo/Metal-and-clay-box.png";
 export default function MetalProject() {

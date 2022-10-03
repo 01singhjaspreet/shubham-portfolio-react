@@ -1,4 +1,4 @@
-import Resume from '../assets/Resume.pdf';
+// import Resume from '../assets/Resume.pdf';
 import { Link, useMatch } from 'react-router-dom';
 import React, { useRef } from 'react';
 import crossIcon from '../assets/hamMenu/crossIcon.svg';
@@ -7,6 +7,7 @@ import hamIcon from '../assets/hamMenu/hamIcon.svg';
 export default function Nav() {
     const isHome = useMatch('/');
     const isWork = useMatch('/work');
+    const isDesignProcess = useMatch('/mentor-project');
     const hamMenuOpenScreen = useRef(null);
     const handleOpenHamMenu = () => {
         document.body.style.overflow = "hidden";
@@ -35,10 +36,10 @@ export default function Nav() {
                         <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
                     {/* <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer"> */}
-                    <a className="pt-1 pb-2 mr-6 transition-all group" href='#' target="_blank" rel="noreferrer">
-                        Resume
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 w-0`}></div>
-                    </a>
+                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/mentor-project'>
+                        Design Process
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isDesignProcess ? 'w-full' : 'w-0'}`}></div>
+                    </Link>
                 </div>
             </div>
             <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
@@ -59,14 +60,17 @@ export default function Nav() {
                 <div className="flex flex-col justify-center gap-8 text-5xl font-medium hamMenuOpenScreen__content">
                     <Link className="transition-all group w-max w-fit" to='/' onClick={handleCloseHamMenu}>
                         Home
-                       { isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                        {isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
                     </Link>
                     <Link className="transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
                         Work
-                        { isWork &&<div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                        {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                    </Link>
+                    <Link className="transition-all group w-max w-fit" to='/mentor-project' onClick={handleCloseHamMenu}>
+                        Design process
+                        {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
                     </Link>
                     {/* <a href={Resume} target="_blank" rel="noreferrer">Resume</a> */}
-                    <a href='#' target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
             <div className="color-transition"></div>
