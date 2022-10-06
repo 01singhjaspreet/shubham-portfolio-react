@@ -126,10 +126,31 @@ export default function MentorProject() {
           <p className="ml-12 ">
             I have developed the HTML and CSS code for the website and Jaspreet Singh implimented the required JS of the website.
           </p>
-          <a className='inline-flex items-center gap-2 px-3 py-2 mt-12 ml-12 text-lg font-medium transition-all border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white' target="_blank" href='https://nasta-shubham.netlify.app/' rel='noopener noreferrer'>View Project
-            <svg fill="currentColor" strokeWidth='1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20px" height="20px">
-              <path stroke="currentColor" d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z" /></svg>
-          </a>
+          <div className='flex justify-center gap-6 mt-12 md:ml-12 md:justify-start'>
+
+            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium transition-all border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white' target="_blank" href='https://nasta-shubham.netlify.app/' rel='noopener noreferrer'>View Live
+              <svg fill="currentColor" strokeWidth='1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20px" height="20px">
+                <path stroke="currentColor" d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z" /></svg>
+            </a>
+
+            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium text-gray-700 transition-all border-2 border-gray-700 rounded-lg hover:bg-gray-700 hover:text-white' target="_blank" href='https://www.figma.com/file/zihDjjfgExaYyEF7xE5ED8/Nasta?node-id=0%3A1' rel='noopener noreferrer'>
+              View in Figma
+              <svg width="22px" height="22px" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_137)">
+                  <path d="M19 28.5C19 25.9804 20.0009 23.5641 21.7825 21.7825C23.5641 20.0009 25.9804 19 28.5 19C31.0196 19 33.4359 20.0009 35.2175 21.7825C36.9991 23.5641 38 25.9804 38 28.5C38 31.0196 36.9991 33.4359 35.2175 35.2175C33.4359 36.9991 31.0196 38 28.5 38C25.9804 38 23.5641 36.9991 21.7825 35.2175C20.0009 33.4359 19 31.0196 19 28.5Z" fill="#1ABCFE" />
+                  <path d="M0 47.5C0 44.9804 1.00089 42.5641 2.78249 40.7825C4.56408 39.0009 6.98044 38 9.5 38H19V47.5C19 50.0196 17.9991 52.4359 16.2175 54.2175C14.4359 55.9991 12.0196 57 9.5 57C6.98044 57 4.56408 55.9991 2.78249 54.2175C1.00089 52.4359 0 50.0196 0 47.5H0Z" fill="#0ACF83" />
+                  <path d="M19 0V19H28.5C31.0196 19 33.4359 17.9991 35.2175 16.2175C36.9991 14.4359 38 12.0196 38 9.5C38 6.98044 36.9991 4.56408 35.2175 2.78249C33.4359 1.00089 31.0196 0 28.5 0L19 0Z" fill="#FF7262" />
+                  <path d="M0 9.5C0 12.0196 1.00089 14.4359 2.78249 16.2175C4.56408 17.9991 6.98044 19 9.5 19H19V0H9.5C6.98044 0 4.56408 1.00089 2.78249 2.78249C1.00089 4.56408 0 6.98044 0 9.5H0Z" fill="#F24E1E" />
+                  <path d="M0 28.5C0 31.0196 1.00089 33.4359 2.78249 35.2175C4.56408 36.9991 6.98044 38 9.5 38H19V19H9.5C6.98044 19 4.56408 20.0009 2.78249 21.7825C1.00089 23.5641 0 25.9804 0 28.5H0Z" fill="#A259FF" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_137">
+                    <rect width="38" height="57" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
         </div>
         <div className="order-1 col-span-12 mt-6 lg:col-span-6 lg:col-start-7 lg:order-2 lg:mt-0">
           <img src={require("../assets/nasta/1.png")} className="w-full rounded" alt="" />

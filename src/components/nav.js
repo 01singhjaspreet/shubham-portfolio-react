@@ -20,7 +20,7 @@ export default function Nav() {
     };
 
     return (
-        <nav className="sticky top-0 left-0 z-20 w-full h-16 px-4 bg-white sm:h-auto">
+        <nav className="sticky top-0 left-0 z-20 w-full h-16 px-4 font-medium bg-white sm:h-auto">
             <div className="container items-center justify-between hidden w-full py-2 mx-auto sm:flex desktopMenu">
                 <Link to="/">
                     <h1 className="text-xl font-bold">Shubham Mourya</h1>
@@ -29,16 +29,16 @@ export default function Nav() {
                 <div className="flex items-center text-lg nav-links">
                     <Link className="pt-1 pb-2 mr-6 transition-all group" to='/'>
                         Home
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
                     </Link>
                     <Link className="pt-1 pb-2 mr-6 transition-all group" to='/work'>
                         Work
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
                     {/* <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer"> */}
                     <Link className="pt-1 pb-2 mr-6 transition-all group" to='/mentor-project'>
                         Design Process
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-600 mt-0.5 ${isDesignProcess ? 'w-full' : 'w-0'}`}></div>
+                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isDesignProcess ? 'w-full' : 'w-0'}`}></div>
                     </Link>
                 </div>
             </div>
@@ -60,15 +60,15 @@ export default function Nav() {
                 <div className="flex flex-col justify-center gap-8 text-5xl font-medium hamMenuOpenScreen__content">
                     <Link className="transition-all group w-max w-fit" to='/' onClick={handleCloseHamMenu}>
                         Home
-                        {isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                        {isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
                     <Link className="transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
                         Work
-                        {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                        {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
                     <Link className="transition-all group w-max w-fit" to='/mentor-project' onClick={handleCloseHamMenu}>
                         Design process
-                        {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-600 mt-1.5 w-full`}></div>}
+                        {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
                     {/* <a href={Resume} target="_blank" rel="noreferrer">Resume</a> */}
                 </div>
