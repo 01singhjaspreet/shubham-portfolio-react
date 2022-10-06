@@ -117,7 +117,7 @@ body {
   }
   .hamMenuOpenScreen__content {
     height: calc(100vh - 148px);
-    padding: 0 48px;
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
   }

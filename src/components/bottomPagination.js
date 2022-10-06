@@ -28,7 +28,7 @@ export default function BottomPagination() {
     };
 
     return (
-        <div className="flex items-center justify-between w-full mt-10">
+        <div className="flex items-center justify-between w-full mt-10 font-medium">
             <Link to={handlePrevProject()} className="flex items-center py-2 group circle-button" >
                 <div className="relative flex items-center justify-center w-10 h-10">
                     <svg className="absolute top-0 left-0" version="1.1"
@@ -43,10 +43,10 @@ export default function BottomPagination() {
                             stroke-linejoin="round" className="transition-all group-hover:stroke-violet-600 stroke-gray-700" />
                     </svg>
                 </div>
-                <div className="ml-2 transition-all group-hover:text-violet-600 p-0.5">Previous Project</div>
+                <div className=" transition-all group-hover:text-violet-600 p-0.5">Prev Project</div>
             </Link>
             <Link to={handleNextProject()} className="flex items-center py-2 group circle-button" >
-                <div className="mr-2 transition-all group-hover:text-violet-600 p-0.5">Next Project</div>
+                <div className=" transition-all group-hover:text-violet-600 p-0.5">Next Project</div>
                 <div className="relative flex items-center justify-center w-10 h-10">
                     <svg className="absolute top-0 left-0" version="1.1"
                         x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40"

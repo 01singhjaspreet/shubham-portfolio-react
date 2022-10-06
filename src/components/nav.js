@@ -57,7 +57,7 @@ export default function Nav() {
                     <div className="hamMenu__ballIcon2"></div>
                     <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
                 </div>
-                <div className="flex flex-col justify-center gap-8 text-5xl font-medium hamMenuOpenScreen__content">
+                <div className="flex flex-col justify-center text-4xl font-medium gap-7 hamMenuOpenScreen__content">
                     <Link className="transition-all group w-max w-fit" to='/' onClick={handleCloseHamMenu}>
                         Home
                         {isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
@@ -66,7 +66,7 @@ export default function Nav() {
                         Work
                         {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
-                    <Link className="transition-all group w-max w-fit" to='/mentor-project' onClick={handleCloseHamMenu}>
+                    <Link className="transition-all group w-max w-fit whitespace-nowrap" to='/mentor-project' onClick={handleCloseHamMenu}>
                         Design process
                         {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>

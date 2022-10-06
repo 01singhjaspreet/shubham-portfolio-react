@@ -104,7 +104,7 @@ export default function MentorProject() {
           <p className="ml-12 ">
             Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, Iterating on designs and responsive design.
           </p>
-          <div className='flex justify-center gap-6 mt-12 md:ml-12 md:justify-start'>
+          <div className='flex justify-center gap-6 mt-12 md:ml-12 md:justify-start whitespace-nowrap'>
             <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium text-gray-700 transition-all border-2 border-gray-700 rounded-lg hover:bg-gray-700 hover:text-white' target="_blank" href='https://www.figma.com/file/JhZBLViHXhxOFjcXbhpkf6/Mentor?node-id=0%3A1' rel='noopener noreferrer'>
               View in Figma
               <svg width="22px" height="22px" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">

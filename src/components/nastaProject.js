@@ -126,7 +126,7 @@ export default function MentorProject() {
           <p className="ml-12 ">
             I have developed the HTML and CSS code for the website and Jaspreet Singh implimented the required JS of the website.
           </p>
-          <div className='flex justify-center gap-6 mt-12 md:ml-12 md:justify-start'>
+          <div className='flex justify-center gap-6 mt-12 whitespace-nowrap md:ml-12 md:justify-start'>
 
             <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium transition-all border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white' target="_blank" href='https://nasta-shubham.netlify.app/' rel='noopener noreferrer'>View Live
               <svg fill="currentColor" strokeWidth='1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20px" height="20px">

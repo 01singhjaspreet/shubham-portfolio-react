@@ -10,7 +10,7 @@ export default function Home() {
             <img className="mb-20 rounded-full shadow xl:mb-0 w-80 xl:w-72 xl:h-72 border-[16px] border-violet-1000" src={DP} alt="Shubham" />
             <div className="max-w-3xl xl:pl-8">
                 <div className="font-semibold text-violet-700">HELLO THERE,</div>
-                <div className="font-bold text-7xl">I'm Shubham</div>
+                <div className="text-6xl font-bold">I'm Shubham</div>
                 <p className="mt-4 leading-5">
                     I am a UI/UX designer based in Hyderabad, India. I am a B.Sc Computer
                     Science graduate and later switched to the awesome world of designing
