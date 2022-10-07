@@ -27,21 +27,6 @@ export default function MentorProject() {
             Mentor app and website goal is to provide mentorship with industry experts
           </p>
           <div className="flex items-center mt-6">
-            <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M0.400024 20C0.400024 8.91089 9.40002 0 20.6 0C31.8 0 40.8 9.0099 40.8 20C40.8 30.9901 31.8 40 20.6 40C9.40002 40 0.400024 31.0891 0.400024 20Z"
-                fill="#4285F4" />
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M20.5 9.901C14.8 9.901 10.2 14.4555 10.2 20.099C10.2 25.7426 14.8 30.297 20.5 30.297C26.2 30.297 30.8 25.7426 30.8 20.099C30.8 14.4555 26.2 9.901 20.5 9.901ZM20.5 28.1188C15.9 28.1188 12.3 24.4555 12.3 20C12.3 15.5446 16 11.8812 20.5 11.8812C25 11.8812 28.7 15.5446 28.7 20C28.7 24.4555 25 28.1188 20.5 28.1188ZM19.5 14.8515V20.9901L24.9 24.1584L25.7 22.8713L21.1 20.198V14.8515H19.5Z"
-                fill="white" />
-            </svg>
-
-            <h2 className="ml-4 text-lg font-medium">The duration</h2>
-          </div>
-          <p className="ml-12 ">
-            Feb 2022 to Mar 2022
-          </p>
-          <div className="flex items-center mt-6">
             <svg width="32" height="32" viewBox="0 0 42 40" fill="none" >
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M0.700012 20C0.700012 9.0099 9.70001 0 20.9 0C32.1 0 41.1 8.91089 41.1 20C41.1 31.0891 32.1 40 20.9 40C9.70001 40 0.700012 31.0891 0.700012 20Z"
@@ -59,7 +44,7 @@ export default function MentorProject() {
             in their respective domain.
           </p>
           <div className="flex items-center mt-6">
-            <div className="flex items-center mt-4">
+            <div className="flex items-center">
               <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M0.300049 20C0.300049 9.0099 9.40006 0 20.5001 0C31.7001 0 40.7001 8.91089 40.7001 20C40.7001 31.0891 31.6001 40 20.5001 40C9.40006 40 0.300049 31.0891 0.300049 20Z"

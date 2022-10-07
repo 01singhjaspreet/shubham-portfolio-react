@@ -18,6 +18,10 @@ export default function Footer() {
         <a href="https://www.instagram.com/amateurdesi9ner/" target="_blank" rel="noreferrer" className="inline-block underline">
           Instagram
         </a>
+        <span> |</span>
+        <a href="https://unsplash.com/@1shubham" target="_blank" rel="noreferrer" className="inline-block underline">
+          Unsplash
+        </a>
       </div>
       <div className="flex flex-col items-center w-full px-4 py-5 pt-0 mt-6 text-sm">
         <div>
