@@ -1,4 +1,4 @@
-// import Resume from '../assets/Resume.pdf';
+import Resume from '../assets/Resume.pdf';
 import { Link, useMatch } from 'react-router-dom';
 import React, { useRef } from 'react';
 import crossIcon from '../assets/hamMenu/crossIcon.svg';
@@ -35,11 +35,14 @@ export default function Nav() {
                         Work
                         <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
                     </Link>
-                    {/* <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer"> */}
                     <Link className="pt-1 pb-2 mr-6 transition-all group" to='/mentor-project'>
                         Design Process
                         <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isDesignProcess ? 'w-full' : 'w-0'}`}></div>
                     </Link>
+                    <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer">Resume
+                    <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 w-0`}></div>
+
+                    </a>
                 </div>
             </div>
             <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
@@ -67,10 +70,10 @@ export default function Nav() {
                         {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
                     <Link className="transition-all group w-max w-fit whitespace-nowrap" to='/mentor-project' onClick={handleCloseHamMenu}>
-                        Design process
+                        Design Process
                         {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
                     </Link>
-                    {/* <a href={Resume} target="_blank" rel="noreferrer">Resume</a> */}
+                    <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
             <div className="color-transition"></div>

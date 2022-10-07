@@ -1,7 +1,7 @@
 import React from 'react';
 import BottomPagination from './bottomPagination';
 
-export default function MentorProject() {
+export default function KathasProject() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -22,9 +22,8 @@ export default function MentorProject() {
             <h2 className="ml-4 text-lg font-medium ">The Product</h2>
           </div>
           <p className="ml-12 ">
-            Nasta is food delivery website which can help users to eat healty breakfast. Nasta website targets the users who want to eat and stay healty.
-            <br />
-            The goal is to provide food services on subscription model.
+            Kathas Entertainment is a Hyper Casual Game Development company that makes games for publishers and general audience.
+            The goal is to create best Hyper Casual Games.
           </p>
           <div className="flex items-center mt-6">
             <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
@@ -54,7 +53,7 @@ export default function MentorProject() {
             <h2 className="ml-4 text-lg font-medium">The Problem</h2>
           </div>
           <p className="ml-12 ">
-            Nasta website is trying to promote healthy food and life style.
+            KathasEntertaiment website needs to showcase their games for publishers and general audience.
           </p>
           <div className="flex items-center mt-6">
             <div className="flex items-center mt-4">
@@ -70,7 +69,7 @@ export default function MentorProject() {
             </div>
           </div>
           <p className="ml-12 ">
-            To Develop website that allows users to order heathy meal on subscription model.
+            To create portfolio website as per the client requirement.
           </p>
           <div className="flex items-center mt-6">
             <svg width="32" height="32" viewBox="0 0 41 40" fill="none" >
@@ -84,7 +83,7 @@ export default function MentorProject() {
             <h2 className="ml-4 text-lg font-medium">My Role</h2>
           </div>
           <p className="ml-12 ">
-            HTML and CSS developer for the Nasta website.
+            UI/UX designer for the Kathas Entertainment website.
           </p>
 
           <div className="flex items-center mt-6">
@@ -106,7 +105,7 @@ export default function MentorProject() {
             <h2 className="ml-4 text-lg font-medium">My Team</h2>
           </div>
           <p className="ml-12 ">
-            Shubham Mourya, Jaspreeth Singh, and the instructor Jonas Schmedtmann.
+            Shubham Mourya, Jaspreeth Singh, and Subham Pradhan.
           </p>
 
           <div className="flex items-center mt-6">
@@ -122,16 +121,19 @@ export default function MentorProject() {
             <h2 className="ml-4 text-lg font-medium">My Responsibilities</h2>
           </div>
           <p className="ml-12 ">
-            I have developed the HTML and CSS code for the website and Jaspreet Singh implimented the required JS of the website.
+            My responsibilities is to create a website which showcase bussiness and some of client work.
+            <br></br>
+            <br></br>
+            I have created Wireframes, Prototype, Gif, and information architecture for the website.
           </p>
           <div className='flex justify-center gap-6 mt-12 whitespace-nowrap md:ml-12 md:justify-start'>
 
-            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium transition-all border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white' target="_blank" href='https://nasta-shubham.netlify.app/' rel='noopener noreferrer'>View Live
+            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium transition-all border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white' target="_blank" href='https://kathasentertainment.com/' rel='noopener noreferrer'>View Live
               <svg fill="currentColor" strokeWidth='1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20px" height="20px">
                 <path stroke="currentColor" d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z" /></svg>
             </a>
 
-            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium text-gray-700 transition-all border-2 border-gray-700 rounded-lg hover:bg-gray-700 hover:text-white' target="_blank" href='https://www.figma.com/file/zihDjjfgExaYyEF7xE5ED8/Nasta?node-id=0%3A1' rel='noopener noreferrer'>
+            <a className='inline-flex items-center gap-2 px-3 py-2 text-lg font-medium text-gray-700 transition-all border-2 border-gray-700 rounded-lg hover:bg-gray-700 hover:text-white' target="_blank" href='https://www.figma.com/file/nsvKG6zjwdPQSNBTmfi0MZ/Kathas-Entertainments' rel='noopener noreferrer'>
               View in Figma
               <svg width="22px" height="22px" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_137)">
@@ -151,8 +153,8 @@ export default function MentorProject() {
           </div>
         </div>
         <div className="order-1 col-span-12 mt-6 lg:col-span-6 lg:col-start-7 lg:order-2 lg:mt-0">
-          <img src={require("../assets/nasta/1.png")} className="w-full rounded" alt="" />
-          <img src={require("../assets/nasta/2.png")} className="w-full mt-4 rounded" alt="" />
+          <img src={require("../assets/Kathas/webkathas1.png")} className="w-full rounded" alt="" />
+          <img src={require("../assets/Kathas/webkathas2.png")} className="w-full mt-4 rounded" alt="" />
         </div>
       </div>
 

@@ -12,6 +12,7 @@ import MetalProject from './components/metalnClayLogoProject';
 import KathasProject from './components/kathasEntertainmentLogoProject';
 import TridentLogoProject from './components/tridentLogoProject';
 import NastaProject from './components/nastaProject';
+import KathasEntertainmentProject from './components/kathasProject';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/kathas-entertainment-logo-project" element={<KathasProject />} />
         <Route path="/trident-logo-project" element={<TridentLogoProject />} />
         <Route path="/nasta-project" element={<NastaProject />} />
+        <Route path="/kathas-project" element={<KathasEntertainmentProject />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
