@@ -13,7 +13,7 @@ export default function Home() {
         <div className="text-6xl font-bold">I'm Shubham</div>
         <p className="mt-4 leading-6">
           I am a UI/UX designer based in Hyderabad, India.
-          I have worked on several projects like International <strong>CITI Bank</strong>, a game publisher - <strong>Kathas Entertainment</strong>, <span className='whitespace-nowrap'>an e-commerce -</span>  <strong>Metal-n-Clay</strong>, a gaming youtube channel - <strong>Trident</strong> etc. and successfully executed all projects ensuring 100% client satisfaction.
+          I have worked on several projects like International <strong>CITI Bank</strong>, a game publisher - <strong>Kathas Entertainment</strong>, <span className='whitespace-nowrap'> e-commerce -</span>  <strong>Metal-n-Clay</strong>, a gaming youtube channel - <strong>Trident</strong> etc. and successfully executed all projects ensuring 100% client satisfaction.
           <br></br>
           <br></br>
           I am a B.Sc Computer
