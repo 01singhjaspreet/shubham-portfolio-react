@@ -1,82 +1,24 @@
-import Resume from '../assets/Resume.pdf';
-import { Link, useMatch } from 'react-router-dom';
-import React, { useRef } from 'react';
-import crossIcon from '../assets/hamMenu/crossIcon.svg';
-import hamIcon from '../assets/hamMenu/hamIcon.svg';
+import Link from './Link';
+import React from 'react';
 
 export default function Nav() {
-    const isHome = useMatch('/');
-    const isWork = useMatch('/work');
-    const isDesignProcess = useMatch('/mentor-project');
-    const hamMenuOpenScreen = useRef(null);
-    const handleOpenHamMenu = () => {
-        document.body.style.overflow = "hidden";
-        hamMenuOpenScreen.current.style.width = "100vw";
-    };
 
-    const handleCloseHamMenu = () => {
-        document.body.style.overflow = "auto";
-        hamMenuOpenScreen.current.style.width = "0";
-    };
-
-    return (
-        <nav className="sticky top-0 left-0 z-20 w-full h-16 px-4 font-medium bg-white sm:h-auto">
-            <div className="container items-center justify-between hidden w-full py-2 mx-auto sm:flex desktopMenu">
-                <Link to="/">
-                    <h1 className="text-xl font-bold">Shubham Mourya</h1>
-                    <h4 className="text-sm">UI/UX Designer</h4>
-                </Link>
-                <div className="flex items-center text-lg nav-links">
-                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/'>
-                        Home
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isHome ? 'w-full' : 'w-0'}`}></div>
-                    </Link>
-                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/work'>
-                        Work
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isWork ? 'w-full' : 'w-0'}`}></div>
-                    </Link>
-                    <Link className="pt-1 pb-2 mr-6 transition-all group" to='/mentor-project'>
-                        Design Process
-                        <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 ${isDesignProcess ? 'w-full' : 'w-0'}`}></div>
-                    </Link>
-                    <a className="pt-1 pb-2 mr-6 transition-all group" href={Resume} target="_blank" rel="noreferrer">Resume
-                    <div className={`div-underline h-0.5 group-hover:w-full duration-300 transition-all bg-violet-1000 mt-0.5 w-0`}></div>
-
-                    </a>
-                </div>
-            </div>
-            <div className="container flex items-center justify-between h-full sm:hidden hamMenu">
-                <Link to="/">
-                    <h1 className="text-xl font-bold">Shubham Mourya</h1>
-                    <h4 className="text-sm">UI/UX Designer</h4>
-                </Link>
-                <div className="relative flex flex-col items-center justify-center h-full">
-                    <div className="hamMenu__ballIcon"></div>
-                    <img src={hamIcon} className="w-9 h-9" alt='hamburger' onClick={handleOpenHamMenu} />
-                </div>
-            </div>
-            <div ref={hamMenuOpenScreen} className="hamMenuOpenScreen">
-                <div className="hamMenuOpenScreen__header">
-                    <div className="hamMenu__ballIcon2"></div>
-                    <img src={crossIcon} alt='close' className="w-8 h-8" onClick={handleCloseHamMenu} />
-                </div>
-                <div className="flex flex-col justify-center text-4xl font-medium gap-7 hamMenuOpenScreen__content">
-                    <Link className="transition-all group w-max w-fit" to='/' onClick={handleCloseHamMenu}>
-                        Home
-                        {isHome && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
-                    </Link>
-                    <Link className="transition-all group w-max w-fit" to='/work' onClick={handleCloseHamMenu}>
-                        Work
-                        {isWork && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
-                    </Link>
-                    <Link className="transition-all group w-max w-fit whitespace-nowrap" to='/mentor-project' onClick={handleCloseHamMenu}>
-                        Design Process
-                        {isDesignProcess && <div className={`h-1.5 duration-300 transition-all bg-violet-1000 mt-1.5 w-full`}></div>}
-                    </Link>
-                    <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
-                </div>
-            </div>
-            <div className="color-transition"></div>
-        </nav>
-    )
+  return (
+    <nav className="sticky top-0 left-0 z-20 w-full h-16 font-medium bg-white shadow-xl sm:h-auto">
+      <div className="container items-center justify-between hidden w-full py-4 mx-auto sm:flex desktopMenu">
+        <Link href="/">
+          <h1 className="text-2xl font-bold">Shubham Mourya</h1>
+        </Link>
+        <Link href="https://www.linkedin.com/in/kellymknowles/" target="_blank">
+          <svg className='w-9' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+            <defs>
+            </defs>
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path className="fill-black" d="m0,20.9C0,16.26,0,11.62,0,6.98,0,2.84,2.38.29,6.51.03c.27-.02.53-.02.8-.02C16.52,0,25.73,0,34.94,0c2.24,0,4.21.61,5.66,2.45,1.15,1.46,1.39,3.18,1.39,4.95.01,7.82.01,15.65,0,23.47,0,1.84,0,3.69-.15,5.53-.23,2.8-2.63,5.16-5.42,5.45-.87.09-1.74.14-2.62.14-8.94.01-17.88,0-26.82,0-2.67,0-4.83-.97-6.19-3.37C.18,37.54,0,36.35,0,35.12c0-4.74,0-9.48,0-14.21Zm22.28-2.93c-.04-.17-.08-.26-.09-.34-.14-1.05-.4-1.29-1.44-1.29-1.07,0-2.14,0-3.21,0-.78,0-1.2.38-1.2,1.14-.01,5-.01,10.01,0,15.01,0,.92.44,1.32,1.36,1.34.97.02,1.94,0,2.91,0,1.26,0,1.55-.29,1.55-1.54,0-2.65-.02-5.3,0-7.94.02-2.2,1.64-3.66,3.52-3.22,1.42.34,2.29,1.54,2.3,3.22.02,2.62,0,5.25,0,7.87,0,1.22.39,1.6,1.62,1.6.95,0,1.89.01,2.84,0,1.02,0,1.36-.34,1.36-1.35,0-3.11.02-6.22,0-9.33-.01-1.75-.7-3.24-1.86-4.54-2.39-2.66-6.8-3.11-9.69-.64Zm-14.11,7.05c0,2.45,0,4.9,0,7.35,0,1.04.43,1.45,1.47,1.46,1.04,0,2.09.01,3.13,0,.83-.01,1.22-.38,1.22-1.19,0-4.93.01-9.85,0-14.78,0-1.03-.51-1.51-1.53-1.52-.97-.01-1.94,0-2.91,0-1.05,0-1.38.34-1.38,1.4,0,2.43,0,4.85,0,7.28Zm2.89-16.87c-1.7.05-2.94,1.29-2.89,2.89.06,1.73,1.35,2.99,3.03,2.96,1.62-.03,2.84-1.33,2.79-3-.05-1.68-1.3-2.9-2.93-2.86Z" />
+            </g>
+          </svg>
+        </Link>
+      </div>
+    </nav>
+  )
 }
