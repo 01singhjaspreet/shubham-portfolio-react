@@ -4,13 +4,13 @@ import React from 'react';
 export default function Nav() {
 
   return (
-    <nav className="sticky top-0 left-0 z-20 w-full h-16 font-medium bg-white shadow-xl sm:h-auto">
-      <div className="container items-center justify-between hidden w-full py-4 mx-auto sm:flex desktopMenu">
+    <nav className="sticky top-0 left-0 z-20 w-full font-medium bg-white shadow-xl sm:h-auto">
+      <div className="flex items-center justify-between w-full max-w-5xl px-4 py-3 mx-auto md:py-4">
         <Link href="/">
-          <h1 className="text-2xl font-bold">Shubham Mourya</h1>
+          <h1 className="text-xl font-bold md:text-2xl">Shubham Mourya</h1>
         </Link>
         <Link href="https://www.linkedin.com/in/kellymknowles/" target="_blank">
-          <svg className='w-9' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+          <svg className='w-8 md:w-9' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
             <defs>
             </defs>
             <g id="Layer_1-2" data-name="Layer 1">
