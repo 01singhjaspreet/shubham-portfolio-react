@@ -1,4 +1,4 @@
-import Nav from './components/Nav';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import DP from './assets/DP.png';
 import photoshop from './assets/photoshop.svg';
@@ -10,7 +10,7 @@ import Resume from './assets/Resume.pdf';
 function App() {
   return (
     <>
-      <Nav />
+      <NavBar />
       <section class="bg-violet-700 w-screen">
         <div className='flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row'>
           <div className='flex flex-col justify-center'>
