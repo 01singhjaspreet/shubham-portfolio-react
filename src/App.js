@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import FooterComp from './components/FooterComp';
 import DP from './assets/DP.png';
 import photoshop from './assets/photoshop.svg';
 import illustrator from './assets/illustrator.svg';
@@ -117,7 +117,7 @@ function App() {
           </div>
         </div>
       </section>
-      <Footer />
+      <FooterComp />
     </>
   );
 }
