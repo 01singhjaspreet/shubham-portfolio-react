@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar';
 import FooterComp from './components/FooterComp';
-import DP from './assets/DP.png';
+import DP from './assets/Dp2.png';
 import photoshop from './assets/photoshop.svg';
 import illustrator from './assets/illustrator.svg';
 import figma from './assets/figma.svg';
@@ -24,7 +24,7 @@ function App() {
               VIEW RESUME
             </Link>
           </div>
-          <img src={DP} loading="lazy" alt="Shubham Mourya" class="w-72 rounded-sm mb-5 sm:mb-0 shadow-sm" />
+          <img src={DP} loading="lazy" alt="Shubham Mourya" class="w-72 rounded-xl mb-3 sm:mb-0" />
         </div>
 
       </section>

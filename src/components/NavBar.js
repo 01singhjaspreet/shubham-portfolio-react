@@ -9,7 +9,7 @@ export default function Nav() {
         <Link href="/">
           <h1 className="text-xl font-bold md:text-2xl">Shubham Mourya</h1>
         </Link>
-        <Link href="https://www.linkedin.com/in/kellymknowles/" target="_blank">
+        <Link href="https://www.linkedin.com/in/shubham-mourya-89193a217/" target="_blank">
           <svg className='w-8 md:w-9' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
             <defs>
             </defs>
