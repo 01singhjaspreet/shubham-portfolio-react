@@ -106,18 +106,6 @@ function App() {
           </div>
         </div>
       </section>
-      <section class="bg-slate-100 w-screen">
-        <div class="max-w-5xl mx-auto py-10 px-4">
-          <h2 class="text-3xl md:text-4xl font-bold mb-6 ">TOOLBOX</h2>
-          <div class="flex justify-between ">
-            <img src={photoshop} className='w-20 sm:w-28 lg:w-40' loading="lazy" alt="Adobe Photoshop" />
-            <img src={illustrator} className='w-20 sm:w-28 lg:w-40' loading="lazy" alt="Adobe Illustrator" />
-            <img src={figma} className='w-20 sm:w-28 lg:w-40' loading="lazy" alt="Figma" />
-            <img src={vscode} className='w-20 sm:w-28 lg:w-40' loading="lazy" alt="Visual Studio Code" />
-          </div>
-        </div>
-      </section>
-      <FooterComp />
     </>
   );
 }
