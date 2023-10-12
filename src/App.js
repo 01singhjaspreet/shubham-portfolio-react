@@ -1,60 +1,92 @@
-import NavBar from './components/NavBar';
-import FooterComp from './components/FooterComp';
-import DP from './assets/Dp2.png';
-import photoshop from './assets/photoshop.svg';
-import illustrator from './assets/illustrator.svg';
-import figma from './assets/figma.svg';
-import vscode from './assets/vscode.svg';
-import Link from './components/Link';
-import Resume from './assets/Resume.pdf';
+import NavBar from "./components/NavBar";
+import FooterComp from "./components/FooterComp";
+import DP from "./assets/Dp2.png";
+import photoshop from "./assets/photoshop.svg";
+import illustrator from "./assets/illustrator.svg";
+import figma from "./assets/figma.svg";
+import vscode from "./assets/vscode.svg";
+import Link from "./components/Link";
+import Resume from "./assets/Resume.pdf";
 function App() {
   return (
     <>
       <NavBar />
       <section class="bg-violet-700 w-screen">
-        <div className='flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row'>
-          <div className='flex flex-col justify-center'>
-            <h2 class="text-2xl md:text-4xl font-bold mb-6 text-white  text-center sm:text-left">UX / UI DESIGNER</h2>
-            <p class=" max-w-xl font-medium text-white text-base md:text-xl pb-5">
-              Hi! I'm Shubham, a multifaceted creative with 4 years of experience in UI.
+        <div className="flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row">
+          <div className="flex flex-col justify-center">
+            <h2 class="text-2xl md:text-4xl font-bold mb-6 text-white  text-center sm:text-left">
+              UX / UI DESIGNER
+            </h2>
+            <p class=" max-w-xl font-medium text-white text-base md:text-xl pb-8">
+              Hi! I'm Shubham, a multifaceted creative with 4 years of
+              experience in UI.
               <br />
             </p>
-            <Link href={Resume} target="_blank"
-              className="px-4 flex md:hidden text-base md:text-xl w-[fit-content] font-semibold bg-white hover:bg-slate-100 transition-all focus:bg-slate-100 mb-8 !leading-none  justify-center items-center h-10 md:h-12">
+            <div>
+            <Link
+              href={Resume}
+              target="_blank"
+              className="px-4 flex bg-violet-100 shadow-md border hover:text-violet-900 text-black hover:border-black border-violet-900 text-base md:text-xl w-[fit-content] font-semibold hover:bg-white  transition-all focus:bg-white mb-8 !leading-none  justify-center items-center h-10 md:h-12"
+            >
               VIEW RESUME
             </Link>
+            </div>
           </div>
-          <img src={DP} loading="lazy" alt="Shubham Mourya" class="w-72 rounded-xl mb-3 sm:mb-0" />
+          <img
+            src={DP}
+            loading="lazy"
+            alt="Shubham Mourya"
+            class="w-72 rounded-xl mb-3 sm:mb-0"
+          />
         </div>
-
       </section>
       <section class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 ">
-        <div className='max-w-5xl mx-auto'>
+        <div className="max-w-5xl mx-auto">
           <div class="w-full flex justify-between gap-4">
             <h2 class="text-3xl md:text-4xl font-bold md:mb-6 ">SKILLSET</h2>
-            <Link href={Resume} target="_blank"
-              className="px-4 hidden md:flex text-base md:text-xl w-[fit-content] font-semibold bg-violet-700 hover:bg-violet-800 transition-all focus:bg-violet-800 text-white !leading-none  justify-center items-center h-10 md:h-12">
-              VIEW RESUME
-            </Link>
           </div>
           <div class="grid grid-cols-12 gap-4 md:gap-6 lg:gap-20 w-full overflow-hidden">
-            <div className='col-span-12 lg:col-span-4'>
-              <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">BREADTH</h3>
+            <div className="col-span-12 lg:col-span-4">
+              <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">
+                BREADTH
+              </h3>
               <div class="flex flex-wrap gap-2 w-[calc(100vw-32px)] lg:w-auto">
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Information architecture</div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Interaction design</div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Prototyping</div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Visual design</div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">HTML /CSS</div>
-                <div class="inline-block rounded-lg text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Illustration</div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">Animation</div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Information architecture
+                </div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Interaction design
+                </div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Prototyping
+                </div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Visual design
+                </div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  HTML /CSS
+                </div>
+                <div class="inline-block rounded-lg text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Illustration
+                </div>
+                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+                  Animation
+                </div>
               </div>
             </div>
-            <div className='col-span-12 lg:col-span-8'>
-              <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">DEPTH</h3>
+            <div className="col-span-12 lg:col-span-8">
+              <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">
+                DEPTH
+              </h3>
               <div class="flex justify-between gap-4 flex-col sm:flex-row w-[calc(100vw-32px)] lg:w-auto">
                 <div class="flex sm:flex-col gap-4 items-center">
-                  <svg class="w-20 sm:w-auto sm:h-24 lg:h-36 fill-gray-900" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.69 150">
+                  <svg
+                    class="w-20 sm:w-auto sm:h-24 lg:h-36 fill-gray-900"
+                    id="Layer_2"
+                    data-name="Layer 2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 160.69 150"
+                  >
                     <g id="Layer_1-2" data-name="Layer 1">
                       <g>
                         <path d="m80.27,0C103.92,0,127.58,0,151.23.01c1.05,0,2.11.14,3.15.3,3.76.61,5.91,4.15,6.15,6.85.09,1,.15,2,.15,3,0,32.73.01,65.45-.01,98.18,0,1.24-.1,2.52-.4,3.73-.76,3.06-3.43,5.27-6.59,5.6-1.02.11-2.06.17-3.09.17-47.09,0-94.18,0-141.27,0-2.44,0-4.7-.46-6.59-2.16-1.86-1.68-2.61-3.82-2.73-6.26-.01-.31-.01-.61-.01-.92C0,75.32,0,42.12,0,8.92c0-3.37,1.23-6.07,4.21-7.85C5.39.37,6.7.14,8.04.05c.56-.04,1.11-.05,1.67-.05C33.23,0,56.75,0,80.27,0Zm.08,10.71c-22.21,0-44.41,0-66.62,0-2.04,0-3.02.98-3.02,3.01,0,26.51,0,53.01,0,79.52,0,.22,0,.45,0,.67.08,1.46,1.14,2.48,2.6,2.51.56.01,1.12,0,1.67,0,43.55,0,87.1,0,130.64,0,.61,0,1.24.09,1.84-.02.55-.1,1.13-.31,1.58-.64.82-.59.93-1.53.93-2.48,0-8.65,0-17.3,0-25.95,0-17.77,0-35.55,0-53.32,0-2.35-.92-3.31-3.18-3.31-22.15,0-44.3,0-66.45,0Zm.01,96.43h0c1.81,0,3.62.02,5.43,0,1.57-.02,2.62-1.16,2.6-2.75-.02-1.54-1.1-2.6-2.65-2.6-3.57,0-7.13,0-10.7,0-1.59,0-2.72,1.09-2.73,2.63-.02,1.62,1.05,2.71,2.71,2.73,1.78.02,3.57,0,5.35,0Z" />
@@ -73,7 +105,13 @@ function App() {
                   <h4 class="text-lg   font-semibold">Design systems</h4>
                 </div>
                 <div class="flex sm:flex-col gap-4 items-center">
-                  <svg class="w-20 sm:w-auto sm:h-24 lg:h-36" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.06 150">
+                  <svg
+                    class="w-20 sm:w-auto sm:h-24 lg:h-36"
+                    id="Layer_2"
+                    data-name="Layer 2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 225.06 150"
+                  >
                     <g id="Layer_1-2" data-name="Layer 1">
                       <g>
                         <path d="m101.22,97.48v29.99h-1.25c-29.06,0-58.12,0-87.18,0-5.02,0-9.07-1.76-11.5-6.39C.29,119.17.01,117.07.01,114.95,0,80.66,0,46.37.01,12.08.01,6.24,3.6,1.52,8.89.38,10.25.09,11.68.01,13.08.01,59.44,0,105.8-.01,152.16.04c1.92,0,3.94.26,5.74.9,4.01,1.42,6.29,4.61,6.75,8.68.48,4.2.33,8.48.45,12.8h-15.12c0-1.24.02-2.44,0-3.64-.04-2.29-1.56-3.79-3.86-3.79-42.46,0-84.91,0-127.37,0-2.21,0-3.75,1.54-3.75,3.75,0,24.92,0,49.83,0,74.75,0,2.59,1.51,4.01,4.24,4.01,21.29,0,42.57-.01,63.86-.02,5.59,0,11.17,0,16.76,0h1.37Zm-18.65,7.5c-1.36,0-2.73-.02-4.09,0-1.89.04-3.45,1.64-3.48,3.54-.04,2.17,1.31,3.87,3.3,3.93,2.8.08,5.61.08,8.42,0,1.98-.05,3.35-1.78,3.29-3.93-.05-1.97-1.53-3.5-3.46-3.54-1.32-.03-2.65,0-3.98,0Z" />
@@ -91,7 +129,13 @@ function App() {
                   <h4 class="text-lg font-semibold">Responsive UI</h4>
                 </div>
                 <div class="flex sm:flex-col gap-4 items-center">
-                  <svg class="w-20 sm:w-auto sm:h-24 lg:h-36" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+                  <svg
+                    class="w-20 sm:w-auto sm:h-24 lg:h-36"
+                    id="Layer_2"
+                    data-name="Layer 2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 150 150"
+                  >
                     <g id="Layer_1-2" data-name="Layer 1">
                       <g>
                         <path d="m109.67,57.43c.13.42.23,1.05-.07,1.63-.28.52-.83.92-1.61,1.16-8.27,2.54-14.65,4.36-20.68,5.92-3.65.94-4.53,3.04-4.71,5.91-.59,9.28.95,17.7,4.73,25.75,1.52,3.26,2.76,6.79,3.96,10.2.36,1.02.72,2.04,1.09,3.06.69,1.94.08,2.73-.62,3.25-.67.5-1.39.68-2.05.51-.66-.18-1.22-.72-1.58-1.53-1.55-3.52-2.94-7.23-4.27-10.82l-.56-1.49c-1.37-3.65-2.7-7.32-4.02-10.99l-2.32-6.39-4.03.18-3.26,8.9c-2.44,6.64-4.88,13.28-7.29,19.94-.73,2.02-1.62,2.3-2.4,2.39-.49.07-1.66.1-2.08-.83-.49-1.08-.61-2.27-.45-2.75l.58-1.67c1.95-5.72,3.97-11.63,6.55-17.09,2.82-5.98,2.72-11.98,2.63-17.79-.02-1.49-.05-3.03-.02-4.52.05-2.23-2.46-3.47-3.34-3.73-4.05-1.2-8.1-2.36-12.16-3.52-2.34-.66-4.67-1.33-7.01-2.01l-.18-.05c-1.09-.31-2.12-.61-2.99-1.04-1.12-.56-1.56-1.68-1.16-2.91.28-.81.97-1.52,1.96-1.52.19,0,.39.02.6.08,2.54.67,5.13,1.41,7.63,2.14,3.25.94,6.61,1.91,9.97,2.74,3.06.75,6.18,1.12,9.2,1.47l1.31.15c10.62,1.27,20.43-1.87,29.92-4.92l.18-.06c1.62-.52,3.36-1,5.33-1.47,1.55-.37,2.76.27,3.22,1.72Z" />
