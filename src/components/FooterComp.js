@@ -6,7 +6,7 @@ export default function Footer() {
       <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
         CONTACT ME
       </h2>
-      <p className='px-4 text-xl font-medium leading-6 text-center font-white'>Currently open to full-time opportunities!</p>
+      <p className='px-4 text-xl font-medium leading-6 text-center font-white'>Currently open for full-time opportunities!</p>
       <div class="flex gap-6 mt-6">
         <Link href="mailto:shubhammourya148@gmail.com" >
           <svg className='transition-all fill-white hover:fill-slate-100 focus:fill-slate-100 h-9' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 42">
