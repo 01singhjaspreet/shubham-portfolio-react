@@ -11,7 +11,7 @@ export default function Nav() {
         <abbr title="Send me an email">
           <Link href="mailto:shubhammourya148@gmail.com">
             <svg
-              className="transition-all fill-black hover:fill-violet-700 focus:fill-violet-700 h-6 lg:h-8"
+              className="transition-all fill-black hover:fill-violet-700 focus:fill-violet-700 h-6 lg:h-8 shrink-0"
               id="Layer_2"
               data-name="Layer 2"
               xmlns="http://www.w3.org/2000/svg"

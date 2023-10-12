@@ -50,7 +50,7 @@ function App() {
               <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">
                 BREADTH
               </h3>
-              <div class="flex flex-wrap gap-2 w-[calc(100vw-32px)] lg:w-auto">
+              <div class="flex flex-wrap gap-2 w-[calc(100vw-32px)] lg:w-auto max-w-xl">
                 <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
                   Information architecture
                 </div>
@@ -78,7 +78,7 @@ function App() {
               <h3 class="text-lg font-bold pb-2.5 my-5 border-b border-gray-700">
                 DEPTH
               </h3>
-              <div class="flex justify-between gap-4 flex-col sm:flex-row w-[calc(100vw-32px)] lg:w-auto">
+              <div class="flex justify-between gap-4 flex-col sm:flex-row w-[calc(100vw-32px)] lg:w-auto max-w-xl lg:max-w-none">
                 <div class="flex sm:flex-col gap-4 items-center">
                   <svg
                     class="w-20 sm:w-auto sm:h-24 lg:h-36 fill-gray-900"
