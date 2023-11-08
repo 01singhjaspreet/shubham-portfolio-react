@@ -1,18 +1,14 @@
-import NavBar from "./components/NavBar";
-import FooterComp from "./components/FooterComp";
 import DP from "./assets/Dp2.png";
-import photoshop from "./assets/photoshop.svg";
-import illustrator from "./assets/illustrator.svg";
-import figma from "./assets/figma.svg";
-import vscode from "./assets/vscode.svg";
 import Link from "./components/Link";
+import NavBar from "./components/NavBar";
 import Resume from "./assets/Resume.pdf";
+
 function App() {
   return (
     <>
       <NavBar />
       <section class="bg-violet-700 w-screen">
-        <div className="flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row">
+        <div className="min-h-[30vh] flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row">
           <div className="flex flex-col justify-center">
             <h2 class="text-2xl md:text-4xl font-bold mb-6 text-white  text-center sm:text-left">
               UX / UI DESIGNER
@@ -40,7 +36,7 @@ function App() {
           />
         </div>
       </section>
-      <section class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 ">
+      <section class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center">
         <div className="max-w-5xl mx-auto">
           <div class="w-full flex justify-between gap-4">
             <h2 class="text-3xl md:text-4xl font-bold md:mb-6 ">SKILLSET</h2>
