@@ -37,7 +37,7 @@ function App() {
         </div>
       </section>
       <section class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl lg:mx-auto">
           <div class="w-full flex justify-between gap-4">
             <h2 class="text-3xl md:text-4xl font-bold md:mb-6 ">SKILLSET</h2>
           </div>
