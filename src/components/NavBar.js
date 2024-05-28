@@ -6,12 +6,12 @@ export default function Nav() {
     <nav className="sticky top-0 left-0 z-20 w-full font-medium bg-white shadow-xl sm:h-auto">
       <div className="flex items-center justify-between w-full max-w-5xl px-4 py-3 mx-auto md:py-4">
         <Link href="/">
-          <h1 className="text-xl font-bold md:text-2xl">Shubham Mourya</h1>
+          <h1 className="text-xl font-bold md:text-2xl">Jaspreet Singh</h1>
         </Link>
         <abbr title="Send me an email">
-          <Link href="mailto:shubhammourya148@gmail.com">
+          <Link href="mailto:jaspreet98singh@gmail.com">
             <svg
-              className="transition-all fill-black hover:fill-violet-700 focus:fill-violet-700 h-6 lg:h-8 shrink-0"
+              className="h-6 transition-all fill-black hover:fill-violet-700 focus:fill-violet-700 lg:h-8 shrink-0"
               id="Layer_2"
               data-name="Layer 2"
               xmlns="http://www.w3.org/2000/svg"

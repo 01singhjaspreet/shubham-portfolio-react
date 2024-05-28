@@ -1,37 +1,38 @@
-import DP from "./assets/Dp2.png";
-import Link from "./components/Link";
-import NavBar from "./components/NavBar";
-import Resume from "./assets/Resume.pdf";
+import DP from './assets/DP.png';
+import Link from './components/Link';
+import NavBar from './components/NavBar';
+import Resume from './assets/Resume.pdf';
 
 function App() {
   return (
     <>
       <NavBar />
-      <section class="bg-violet-700 w-screen">
+      <section class="bg-sky-700 w-screen">
         <div className="min-h-[30vh] flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row">
           <div className="flex flex-col justify-center">
             <h2 class="text-2xl md:text-4xl font-bold mb-6 text-white  text-center sm:text-left">
-              UX / UI DESIGNER
+              FE developer / UX DESIGNER
             </h2>
             <p class=" max-w-xl font-medium text-white text-base md:text-xl pb-8">
-              Hi! I'm Shubham, a multifaceted creative with 4 years of
-              experience in UI.
+              Hi! I'm Jaspreet, a multifaceted creative with 5 years of
+              experience in Frontend development and UI/UX design.
               <br />
             </p>
             <div>
-            <Link
-              href={Resume}
-              target="_blank"
-              className="px-4 flex bg-violet-100 shadow-md border hover:text-violet-900 text-black hover:border-black border-violet-900 text-base md:text-xl w-[fit-content] font-semibold hover:bg-white  transition-all focus:bg-white mb-8 !leading-none  justify-center items-center h-10 md:h-12"
-            >
-              VIEW RESUME
-            </Link>
+              <Link
+                href={Resume}
+                target="_blank"
+                aria-label="View Resume"
+                className="px-4 flex bg-violet-100 shadow-md border hover:text-sky-900 text-black hover:border-black border-sky-900 text-base md:text-xl w-[fit-content] font-semibold hover:bg-white  transition-all focus:bg-white mb-8 !leading-none  justify-center items-center h-10 md:h-12"
+              >
+                VIEW RESUME
+              </Link>
             </div>
           </div>
           <img
             src={DP}
             loading="lazy"
-            alt="Shubham Mourya"
+            alt="Jaspreet Singh"
             class="w-72 rounded-xl mb-3 sm:mb-0"
           />
         </div>
@@ -47,27 +48,24 @@ function App() {
                 BREADTH
               </h3>
               <div class="flex flex-wrap gap-2 w-[calc(100vw-32px)] lg:w-auto max-w-xl">
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Information architecture
-                </div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Interaction design
-                </div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Prototyping
-                </div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Visual design
-                </div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  HTML /CSS
-                </div>
-                <div class="inline-block rounded-lg text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Illustration
-                </div>
-                <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
-                  Animation
-                </div>
+                <Tag>HTML</Tag>
+                <Tag>CSS</Tag>
+                <Tag>JavaScript</Tag>
+                <Tag>React</Tag>
+                <Tag>Express</Tag>
+                <Tag>Mongodb</Tag>
+                <Tag>Tailwind</Tag>
+                <Tag>Responsive UI</Tag>
+                <Tag>Web Accessibility</Tag>
+                <Tag>SEO optimization</Tag>
+                <Tag>Prototyping</Tag>
+                <Tag>User testing</Tag>
+                <Tag>Visual design</Tag>
+                <Tag>Information architecture</Tag>
+                <Tag>Interaction design</Tag>
+                <Tag>Wireframing</Tag>
+                <Tag>Design system</Tag>
+                <Tag>Responsive web design</Tag>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -98,7 +96,7 @@ function App() {
                       </g>
                     </g>
                   </svg>
-                  <h4 class="text-lg   font-semibold">Design systems</h4>
+                  <h4 class="text-lg   font-semibold">UI development</h4>
                 </div>
                 <div class="flex sm:flex-col gap-4 items-center">
                   <svg
@@ -139,7 +137,7 @@ function App() {
                       </g>
                     </g>
                   </svg>
-                  <h4 class="text-lg font-semibold">Accessible Design</h4>
+                  <h4 class="text-lg font-semibold">Accessible UI</h4>
                 </div>
               </div>
             </div>
@@ -149,5 +147,11 @@ function App() {
     </>
   );
 }
+
+const Tag = ({ children }) => (
+  <div class="inline-block rounded-lg  text-white text-xs md:text-sm bg-gray-900 px-2.5 py-1.5">
+    {children}
+  </div>
+);
 
 export default App;
