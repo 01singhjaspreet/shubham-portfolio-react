@@ -54,7 +54,6 @@ function App() {
                 <Tag>React</Tag>
                 <Tag>Express</Tag>
                 <Tag>Mongodb</Tag>
-                <Tag>Tailwind</Tag>
                 <Tag>Responsive UI</Tag>
                 <Tag>Web Accessibility</Tag>
                 <Tag>SEO optimization</Tag>
@@ -65,7 +64,6 @@ function App() {
                 <Tag>Interaction design</Tag>
                 <Tag>Wireframing</Tag>
                 <Tag>Design system</Tag>
-                <Tag>Responsive web design</Tag>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
