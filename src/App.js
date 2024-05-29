@@ -1,7 +1,7 @@
 import DP from './assets/dp2.svg';
 import Link from './components/Link';
 import NavBar from './components/NavBar';
-import Resume from './assets/Resume.pdf';
+import Resume from './assets/resume.pdf';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <h2 className="mb-6 text-2xl font-semibold text-center text-gray-100 md:text-4xl sm:text-left">
               UX Designer / FE Developer
             </h2>
-            <p className="max-w-xl pb-8 text-base font-medium text-gray-200  md:text-xl">
+            <p className="max-w-xl pb-8 text-base font-medium text-gray-200 md:text-xl">
               Hi! I'm Jaspreet, a multifaceted creative with 5 years of
               experience in Frontend development and UI/UX design.
               <br />
