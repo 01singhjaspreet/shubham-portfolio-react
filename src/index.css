@@ -10,8 +10,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-#skillset,nav,#resume{
+body,nav,#resume{
   background: url(./assets/background.png);
 }
 

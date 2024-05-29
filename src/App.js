@@ -48,7 +48,7 @@ function App() {
       </section>
       <section
         id="skillset"
-        className="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center relative"
+        className=" py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center relative"
       >
         <svg
           viewBox="0 0 997 491"
