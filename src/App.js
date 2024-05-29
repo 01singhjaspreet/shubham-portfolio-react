@@ -3,6 +3,8 @@ import Link from './components/Link';
 import NavBar from './components/NavBar';
 import Resume from './assets/resume.pdf';
 
+
+
 function App() {
   return (
     <>
