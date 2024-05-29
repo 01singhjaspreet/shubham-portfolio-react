@@ -10,3 +10,13 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+#skillset,nav,#resume{
+  background: url(./assets/background.png);
+}
+
+@media (min-width: 640px) {
+  #dp {
+    background: url(./assets/background.png);
+  }
+}

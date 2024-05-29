@@ -1,4 +1,4 @@
-import DP from './assets/DP.png';
+import DP from './assets/dp2.svg';
 import Link from './components/Link';
 import NavBar from './components/NavBar';
 import Resume from './assets/Resume.pdf';
@@ -7,13 +7,15 @@ function App() {
   return (
     <>
       <NavBar />
-      <section class="bg-sky-700 w-screen">
+      <section style={{
+        background: `linear-gradient(220.55deg, #565656 0%, #181818 100%)`
+      }} class="w-screen">
         <div className="min-h-[30vh] flex flex-col-reverse items-center justify-between max-w-5xl px-4 mx-auto sm:flex-row">
           <div className="flex flex-col justify-center">
-            <h2 class="text-2xl md:text-4xl font-bold mb-6 text-white  text-center sm:text-left">
-              FE developer / UX DESIGNER
+            <h2 class="text-2xl md:text-4xl font-semibold mb-6 text-gray-100  text-center sm:text-left">
+              FE Developer / UX Designer
             </h2>
-            <p class=" max-w-xl font-medium text-white text-base md:text-xl pb-8">
+            <p class=" max-w-xl font-medium text-gray-200 text-base md:text-xl pb-8">
               Hi! I'm Jaspreet, a multifaceted creative with 5 years of
               experience in Frontend development and UI/UX design.
               <br />
@@ -22,8 +24,9 @@ function App() {
               <Link
                 href={Resume}
                 target="_blank"
+                id="resume"
                 aria-label="View Resume"
-                className="px-4 flex bg-violet-100 shadow-md border hover:text-sky-900 text-black hover:border-black border-sky-900 text-base md:text-xl w-[fit-content] font-semibold hover:bg-white  transition-all focus:bg-white mb-8 !leading-none  justify-center items-center h-10 md:h-12"
+                className="px-4 flex  shadow-md border  text-gray-700  border-sky-900 text-base md:text-xl w-[fit-content] font-semibold   transition-all  mb-8 !leading-none  justify-center items-center h-10 md:h-12 hover:text-gray-900"
               >
                 VIEW RESUME
               </Link>
@@ -33,11 +36,110 @@ function App() {
             src={DP}
             loading="lazy"
             alt="Jaspreet Singh"
-            class="w-72 rounded-xl mb-3 sm:mb-0"
+            id="dp"
+            class="w-full sm:w-[40%] rounded-full aspect-square object-cover outline-4 outline-white object-top my-8"
           />
         </div>
       </section>
-      <section class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center">
+      <section
+        id="skillset"
+        class="bg-slate-100 py-10 w-screen  px-4 ring-slate-100 ring-1 min-h-[30vh] flex flex-col justify-center relative"
+      >
+        <svg
+          viewBox="0 0 997 491"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute top-0 hidden right-0 opacity-70 w-full xl:w-2/3"
+        >
+          <g opacity="0.83">
+            <g filter="url(#filter0_f_74_472)">
+              <path
+                d="M480.126 -131.84C559.322 -31.9827 543.389 112.52 444.54 190.917C345.691 269.313 216.65 237.774 240.523 94.6982C161.328 -5.1593 58.8973 -92.3031 157.747 -170.699C256.596 -249.096 400.93 -231.698 480.126 -131.84Z"
+                fill="#0500FC"
+                fill-opacity="0.54"
+              ></path>
+            </g>
+            <g filter="url(#filter1_f_74_472)">
+              <path
+                d="M769.427 5.10269C848.671 105.021 747.024 117.861 662.339 185.024C577.654 252.186 542.001 348.238 462.757 248.32C383.513 148.401 387.923 12.9556 472.608 -54.2069C557.293 -121.369 690.183 -94.8156 769.427 5.10269Z"
+                fill="#FC1E00"
+                fill-opacity="0.59"
+              ></path>
+            </g>
+            <g filter="url(#filter2_f_74_472)">
+              <path
+                d="M706.962 -320.678C786.233 -220.726 778.703 -82.761 690.144 -12.5257C601.585 57.7096 465.531 33.619 386.26 -66.3335C306.989 -166.286 446.073 -174.682 534.632 -244.917C623.191 -315.152 627.691 -420.631 706.962 -320.678Z"
+                fill="#D20808"
+                fill-opacity="0.64"
+              ></path>
+            </g>
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_74_472"
+              x="0.349503"
+              y="-336.473"
+              width="646.843"
+              height="685.946"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              ></feBlend>
+              <feGaussianBlur
+                stdDeviation="58.35"
+                result="effect1_foregroundBlur_74_472"
+              ></feGaussianBlur>
+            </filter>
+            <filter
+              id="filter1_f_74_472"
+              x="207.493"
+              y="-289.902"
+              width="789.15"
+              height="779.946"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              ></feBlend>
+              <feGaussianBlur
+                stdDeviation="99.3"
+                result="effect1_foregroundBlur_74_472"
+              ></feGaussianBlur>
+            </filter>
+            <filter
+              id="filter2_f_74_472"
+              x="172.016"
+              y="-552.382"
+              width="780.504"
+              height="770.789"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              ></feBlend>
+              <feGaussianBlur
+                stdDeviation="95.35"
+                result="effect1_foregroundBlur_74_472"
+              ></feGaussianBlur>
+            </filter>
+          </defs>
+        </svg>
         <div className="max-w-5xl lg:mx-auto">
           <div class="w-full flex justify-between gap-4">
             <h2 class="text-3xl md:text-4xl font-bold md:mb-6 ">SKILLSET</h2>
@@ -64,6 +166,7 @@ function App() {
                 <Tag>Interaction design</Tag>
                 <Tag>Wireframing</Tag>
                 <Tag>Design system</Tag>
+                <Tag>Figma</Tag>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-8">
@@ -94,7 +197,7 @@ function App() {
                       </g>
                     </g>
                   </svg>
-                  <h4 class="text-lg   font-semibold">UI development</h4>
+                  <h4 class="text-lg   font-semibold">Design System</h4>
                 </div>
                 <div class="flex sm:flex-col gap-4 items-center">
                   <svg
