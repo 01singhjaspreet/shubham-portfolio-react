@@ -31,7 +31,7 @@ function App() {
                 target="_blank"
                 id="resume"
                 aria-label="View Resume"
-                className="px-4 flex  shadow-md border  text-gray-700  border-sky-900 text-base md:text-xl w-[fit-content] font-semibold   transition-all  mb-8 !leading-none  justify-center items-center h-10 md:h-12 hover:text-gray-900"
+                className="px-4 flex  shadow-md border  text-gray-900  border-sky-900 text-base md:text-xl w-[fit-content] font-semibold   transition-all  mb-8 !leading-none  justify-center items-center h-10 md:h-12 hover:text-gray-700"
               >
                 VIEW RESUME
               </Link>
