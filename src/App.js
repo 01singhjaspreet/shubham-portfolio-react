@@ -1,9 +1,7 @@
 import DP from './assets/dp2.svg';
 import Link from './components/Link';
 import NavBar from './components/NavBar';
-import Resume from './assets/resume4.pdf';
-
-
+import Resume from './assets/FSP_designer_resume.pdf';
 
 function App() {
   return (
